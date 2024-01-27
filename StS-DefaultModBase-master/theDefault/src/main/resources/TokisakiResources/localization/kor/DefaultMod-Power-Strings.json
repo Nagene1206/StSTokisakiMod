@@ -1,0 +1,78 @@
+{
+"Tokisaki:ShadowPower": {
+        "NAME": "그림자",
+        "DESCRIPTIONS": ["그림자는 곧 시간입니다.", "", ""]
+},
+"Tokisaki:RarePower": {
+        "NAME": "Placeholder Power",
+        "DESCRIPTIONS": ["At the start of your turn, TOUCH #b", " enemy." , " enemies."]
+},
+"Tokisaki:HethPower": {
+        "NAME": "헤트",
+        "DESCRIPTIONS": ["타격 카드를 사용할 때, 타격 카드가 ", " 번 더 사용됩니다", " 번 더 사용됩니다"]
+},
+"Tokisaki:CatPower": {
+        "NAME": "고양이",
+        "DESCRIPTIONS": ["고양이를 예측할 수 있을 리가 없습니다.", "", ""]
+},
+"Tokisaki:CatKingdomPower": {
+        "NAME": "고양이 왕국",
+        "DESCRIPTIONS": ["이곳이야 말로 고양이들의 지상낙원.", "", ""]
+},
+"Tokisaki:CatHatePower": {
+        "NAME": "고양이가 싫어함",
+        "DESCRIPTIONS": ["다른 건 모르겠지만 고양이가 싫어한다는 사실은 분명하군요.", "", ""]
+},
+"Tokisaki:CorrosionPower": {
+        "NAME": "침식",
+        "DESCRIPTIONS": ["턴 시작시 ", "만큼 피해를 입습니다.", "적이 죽으면 최대 체력이 2 증가합니다."]
+},
+"Tokisaki:AreaExpansionPower": {
+        "NAME": "시간을 저작하는 성",
+        "DESCRIPTIONS": ["턴 시작시 적 전체에게 침식을 ", " 만큼 부여합니다.", ""]
+},
+"Tokisaki:OwnerOfTheCastlePower": {
+        "NAME": "성의 주인",
+        "DESCRIPTIONS": ["스킬 카드를 사용할 때마다 그림자를 ", " 얻습니다.", " 얻습니다."]
+},
+"Tokisaki:ClockworkPower": {
+        "NAME": "종말의 시계 태엽",
+        "DESCRIPTIONS": ["종말이 다가옵니다.", "", ""]
+},
+"Tokisaki:TimeAttackPower": {
+        "NAME": "타임 어택",
+        "DESCRIPTIONS": ["매 턴 시작시, 힘, 민첩, 침식을 ", " 얻습니다.", ""]
+},
+"Tokisaki:ShadowOfShadowPower": {
+        "NAME": "그림자의 그림자",
+        "DESCRIPTIONS": ["매 턴 종료시, 그림자를 ", " 얻습니다.", ""]
+},
+"Tokisaki:ShadowRainPower": {
+        "NAME": "그림자 비",
+        "DESCRIPTIONS": ["매 턴 종료시, 적 전체에게 그림자만큼 피해를 입힙니다.", "", ""]
+},
+"Tokisaki:NekomimiPower": {
+        "NAME": "변덕",
+        "DESCRIPTIONS": ["맙소사. 고양이가 카드를 소멸시킬 수도 있습니다.", "", ""]
+},
+"Tokisaki:CorrosionShieldPower": {
+        "NAME": "침식 방패",
+        "DESCRIPTIONS": ["매 턴 종료시, 적들의 침식만큼 방어도를 얻습니다.", "", ""]
+},
+"Tokisaki:ZaphkielPower": {
+        "NAME": "자프키엘",
+        "DESCRIPTIONS": ["카드를 사용할 때마다 ", "장 뽑습니다.", "장 뽑습니다.", "이번 턴에 카드를 ", " 장 사용할 수 있습니다.", "12장을 이미 사용했습니다."]
+},
+"Tokisaki:WholeWorldIsCatPower": {
+        "NAME": "세상은 고양이로 이루어져 있다",
+        "DESCRIPTIONS": ["매 턴 시작시, ", "장의 무작위 카드를 얻습니다.", "장의 무작위 카드를 얻습니다."]
+},
+"Tokisaki:CreateBulletPower": {
+        "NAME": "탄환 생성",
+        "DESCRIPTIONS": ["매 턴 시작시, 0 코스트인 타격 카드 ", "장을 뽑을 카드 더미에 넣습니다.", "장을 뽑을 카드 더미와 버린 카드 더미에 넣습니다."]
+},
+"Tokisaki:BulletReplenishmentPower": {
+        "NAME": "탄환 보충",
+        "DESCRIPTIONS": ["타격 카드를 사용할 때, ", "만큼 카드를 뽑고 방어도를 얻습니다.", "만큼 카드를 뽑고 방어도를 얻습니다."]
+}
+}

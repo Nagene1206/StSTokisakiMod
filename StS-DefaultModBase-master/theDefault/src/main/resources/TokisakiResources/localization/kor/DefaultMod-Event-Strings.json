@@ -1,0 +1,52 @@
+{
+  "Tokisaki:IdentityCrisisEvent": {
+    "NAME": "Identity Crisis",
+    "DESCRIPTIONS": [
+      "As you move through ~The~ ~City~ you come across a #pPurple #pMirror. NL You look at it, but you see no reflection.",
+      "You see no one but #g~You~ #g~wish~ #g~to~ #g~become~ #g~someone.~",
+      "#r@YOU@ #r@EXIST@ #r@AND@ #r@ARE@ #r@VALID!@",
+      "#yYou #yare #yat #ypeace #ywith #yyour #ypresence.",
+      "You have no hands."
+    ],
+    "OPTIONS": [
+      "[Inspiration] #gGain #ga #gRandom #gStarting #gRelic.",
+      "[Denial] #rLose #r",
+      " #rMax #rHP. #gRemove #ga #gCard #gfrom #gyour #gdeck.",
+      "[Acceptance] #gGain #gApotheosis.",
+      "[TOUCH THE MIRROR] TOUCH TOUCH TO#C# TOUCH TO UCH TOUCH #rTOUCH TOUCH",
+      "[Leave]",
+      "Select card to remove."
+    ]
+  },
+  "Tokisaki:MultiverseEvent": {
+    "NAME": "다른 세계선",
+    "DESCRIPTIONS": [
+      "당신은 익숙한 책, 라지엘을 손에 넣게 되었습니다. NL 라지엘을 이용하면 다른 세계선의 쿠루미와 접촉하여 필요한 능력을 가져올 수도 있습니다. NL 다만 이곳에 존재하는 것을 부정하기라도 하는 것처럼 심히 ~떨리고~ 있습니다. 한번 사용하면 끝날 것 같습니다. NL 어떤 세계선과 접촉하시겠습니까?",
+      "꽤나 위험한 분위기를 풍기는 남성과 만났습니다. 그는 당신의 총을 보고 빠르게 총을 꺼내듭니다. NL 세계선의 당신은 사망했지만 남성의 기술을 습득할 수 있었습니다.",
+      "잘생긴 남성이 전쟁터 한복판을 뛰어다닙니다. 그는 총 한자루도 들고 있지 않습니다. NL 놀랍게도 그는 당신의 적군이었습니다. 하지만 충분한 탄환을 가지고 있지 않아 쏠 수가 없습니다. NL 탄환의 소중함을 배웠습니다.",
+      "이상하게 생긴 고양이를 마주칩니다. 어째서인지 떼껄룩이라고 해야할 것 같습니다. NL 그는 당신에게 고양이를 통제하는 법을 가르쳐주었습니다."
+    ],
+    "OPTIONS": [
+      "[킬러들의 세계] #g모잠비크 #g드릴을 #g얻습니다.",
+      "[전쟁의 세계] #g탄환 #g보충을 #g얻습니다.",
+      "[고양이의 세계] #g발바닥 #g젤리를 #g얻습니다.",
+      "[떠난다]"
+    ]
+  },
+  "Tokisaki:CatForSaleEvent": {
+    "NAME": "고양이 분양",
+    "DESCRIPTIONS": [
+      "귀여운 생명체가 당신에게 애처로운 울음소리를 보냅니다. 너무나도 키우고 싶겠지만 돈이 문제입니다. NL 귀여운 생명체를 어떻게 하시겠습니까?",
+      "당신의 지갑이 텅 빈만큼 당신의 덱은 고양이로 가득합니다.",
+      "당신이 장난감으로 준 카드는 무참히 찢겼습니다. 뭐. 고양이니까요.",
+      "단순히 지켜보는 것만으로 마음이 안정됩니다. 다시 힘차게 첨탑을 오를 수 있을 것 같습니다."
+    ],
+    "OPTIONS": [
+      "[골드를 바친다] #r골드를 #r모두 #r잃습니다. #g고양이가 #g덱으로 #g대거 #g이주합니다.",
+      "[카드를 장난감으로 준다] #g카드 #g한장을 #g덱에서 #g제거합니다.",
+      "[지켜본다] #g최대 #g체력이 #g10 #g증가합니다.",
+      "[떠난다]",
+      "장난감으로 줄 카드를 선택해주세요."
+    ]
+  }
+}

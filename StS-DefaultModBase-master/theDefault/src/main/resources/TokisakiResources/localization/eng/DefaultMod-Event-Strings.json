@@ -1,0 +1,52 @@
+{
+  "Tokisaki:IdentityCrisisEvent": {
+    "NAME": "Identity Crisis",
+    "DESCRIPTIONS": [
+      "As you move through ~The~ ~City~ you come across a #pPurple #pMirror. NL You look at it, but you see no reflection.",
+      "You see no one but #g~You~ #g~wish~ #g~to~ #g~become~ #g~someone.~",
+      "#r@YOU@ #r@EXIST@ #r@AND@ #r@ARE@ #r@VALID!@",
+      "#yYou #yare #yat #ypeace #ywith #yyour #ypresence.",
+      "You have no hands."
+    ],
+    "OPTIONS": [
+      "[Inspiration] #gGain #ga #gRandom #gStarting #gRelic.",
+      "[Denial] #rLose #r",
+      " #rMax #rHP. #gRemove #ga #gCard #gfrom #gyour #gdeck.",
+      "[Acceptance] #gGain #gApotheosis.",
+      "[TOUCH THE MIRROR] TOUCH TOUCH TO#C# TOUCH TO UCH TOUCH #rTOUCH TOUCH",
+      "[Leave]",
+      "Select card to remove."
+    ]
+  },
+  "Tokisaki:MultiverseEvent": {
+    "NAME": "Another World Line",
+    "DESCRIPTIONS": [
+      "You have obtained a familiar book, Raziel. Raziel can also be used to contact Kurumi from another world line and bring back the necessary abilities. However, Raziel is shaking violently, as if it is denying its existence here. I think it will be over once you use it. NL Which worldline would you like to contact?",
+      "I met a man who gave off a very dangerous vibe. He sees your gun and quickly pulls it out. NL Although you died in the world line, you were able to acquire the skills of men.",
+      "A handsome man runs through the middle of a battlefield. He doesn't even carry a gun. Surprisingly, he was your enemy. But You can't shoot because You don't have enough ammo. NL You learned the importance of bullets.",
+      "You encounter a strange-looking cat. For some reason, I think it should be said ~\"Take a look.\"~. NL He taught you how to control your cat."
+    ],
+    "OPTIONS": [
+      "[World Of Killers] #gGain #gMozambique #gdrill.",
+      "[World Of War] #Gain #gBullet #gReplenishment.",
+      "[World Of Cat] #gGain #gPaw #gPad.",
+      "[Leave]"
+    ]
+  },
+  "Tokisaki:CatForSaleEvent": {
+    "NAME": "Cat for sale",
+    "DESCRIPTIONS": [
+      "A cute creature lets out a pitiful cry at you. I really want to raise it, but money is an issue. NL What would you do with the cute creature?",
+      "Your deck is as full of cats as your wallet is empty.",
+      "The card you gave me as a toy was mercilessly torn. what. Because it's a cat.",
+      "Simply watching will calm your mind. I feel like I can climb the spire with strength again."
+    ],
+    "OPTIONS": [
+      "[Give Gold] #rLose #revery #rgold. #gCats #gare #gmoving #gto #gthe #gdeck #gin #gdroves",
+      "[Give the card as a toy] #gRemove #ga #gCard #gfrom #gyour #gdeck.",
+      "[Watch it] #gIncrease #g10 #gMax #gHealth.",
+      "[Leave]",
+      "Select a card to give as a toy."
+    ]
+  }
+}

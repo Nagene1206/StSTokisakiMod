@@ -1,0 +1,78 @@
+{
+"Tokisaki:ShadowPower": {
+        "NAME": "Shadow",
+        "DESCRIPTIONS": ["Shadows are time.", "", ""]
+},
+"Tokisaki:RarePower": {
+        "NAME": "Placeholder Power",
+        "DESCRIPTIONS": ["At the start of your turn, TOUCH #b", " enemy." , " enemies."]
+},
+"Tokisaki:HethPower": {
+        "NAME": "Heth",
+        "DESCRIPTIONS": ["When you use strike cards, strike card is used ", " time.", "times."]
+},
+"Tokisaki:CatPower": {
+        "NAME": "Cat",
+        "DESCRIPTIONS": ["There is no way you can predict a cat.", "", ""]
+},
+"Tokisaki:CatKingdomPower": {
+        "NAME": "Cat Kingdom",
+        "DESCRIPTIONS": ["This is heaven on earth for cats.", "", ""]
+},
+"Tokisaki:CatHatePower": {
+        "NAME": "Cats hate This",
+        "DESCRIPTIONS": ["I don't know about anything else, but it's clear that cats don't like this.", "", ""]
+},
+"Tokisaki:CorrosionPower": {
+        "NAME": "Corrosion",
+        "DESCRIPTIONS": ["At the beginning of its turn, the target loses ", "HP.", "When an enemy dies, your maximum health increases by 2."]
+},
+"Tokisaki:AreaExpansionPower": {
+        "NAME": "Castle that triturate time",
+        "DESCRIPTIONS": ["At the beginning of its turn, Apply ", " Corrosion to all enemies.", ""]
+},
+"Tokisaki:OwnerOfTheCastlePower": {
+        "NAME": "Owner of the castle",
+        "DESCRIPTIONS": ["When you play skill card, you gain ", " shadow", " shadow."]
+},
+"Tokisaki:ClockworkPower": {
+        "NAME": "Clockwork of Apocalypse",
+        "DESCRIPTIONS": ["The end is coming.", "", ""]
+},
+"Tokisaki:TimeAttackPower": {
+        "NAME": "Time Attack",
+        "DESCRIPTIONS": ["At the beginning of its turn, Gain ", " Strength, Dexterity and Corrosion", ""]
+},
+"Tokisaki:ShadowOfShadowPower": {
+        "NAME": "Shadow of Shadow",
+        "DESCRIPTIONS": ["At the end of its turn, Gain ", " Shadows.", ""]
+},
+"Tokisaki:ShadowRainPower": {
+        "NAME": "Shadow Rain",
+        "DESCRIPTIONS": ["At the end of its turn, Deal damage equal to Shadow to all enemy.", "", ""]
+},
+"Tokisaki:NekomimiPower": {
+        "NAME": "Whim",
+        "DESCRIPTIONS": ["oh my god. Cats can also destroy your cards.", "", ""]
+},
+"Tokisaki:CorrosionShieldPower": {
+        "NAME": "Corrosion Shield",
+        "DESCRIPTIONS": ["At the end of its turn, Gain armor equal to Corrosion of your enemies.", "", ""]
+},
+"Tokisaki:ZaphkielPower": {
+        "NAME": "Zaphkiel",
+        "DESCRIPTIONS": ["When you use card, Draw ", " card.", " cards.", "You can play ", " card this turn.", "You already played 12 cards."]
+},
+"Tokisaki:WholeWorldIsCatPower": {
+        "NAME": "The world is made of cats",
+        "DESCRIPTIONS": ["At the beginning of its turn, Gain ", " random card.", "random cards."]
+},
+"Tokisaki:CreateBulletPower": {
+        "NAME": "Create Bullet",
+        "DESCRIPTIONS": ["At the beginning of its turn, Gain 0 cost Strike Card ", "in DrawPile.", "in DrawPile and DiscardPile."]
+},
+"Tokisaki:BulletReplenishmentPower": {
+        "NAME": "Bullet ReplenishmentPower",
+        "DESCRIPTIONS": ["When you use a strike card, you draw ", " card and gain armor.", " cards and gain armor."]
+}
+}

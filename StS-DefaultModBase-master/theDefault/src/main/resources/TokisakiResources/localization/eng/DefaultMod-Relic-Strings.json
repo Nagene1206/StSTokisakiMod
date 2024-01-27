@@ -1,0 +1,55 @@
+{
+  "Tokisaki:CastleThatEatTime": {
+    "NAME": "Castle that eat time",
+    "FLAVOR": "It's the best way to make up for shadows(time).",
+    "DESCRIPTIONS": [
+      "At the start of my turn, get #yTokisaki:Shadow #b1."
+    ]
+  },
+  "Tokisaki:PlaceholderRelic2": {
+    "NAME": "Placeholder Relic 2",
+    "FLAVOR": "You feel stronger.",
+    "DESCRIPTIONS": [
+      "At the start of each combat, gain #b1 #yStrength."
+    ]
+  },
+  "Tokisaki:DefaultClickableRelic": {
+    "NAME": "Right-Clicky Relic",
+    "FLAVOR": "The more you right-click it, the more orbs you've evoked in your lifetime.",
+    "DESCRIPTIONS": [
+      "[#2aecd7]Usable [#2aecd7]once [#2aecd7]per [#2aecd7]turn.[] NL #yEvoke your rightmost Orb.",
+      "YOU ARE MINE!"
+    ]
+  },
+  "Tokisaki:BottledPlaceholderRelic": {
+    "NAME": "Bottled Placeholder",
+    "FLAVOR": "What is this?",
+    "DESCRIPTIONS": [
+      "Choose a card. Whenever you take play any card, draw the chosen card.",
+      "Whenever you play a card, draw ",
+      ".",
+      "Select a card to bottle for "
+    ]
+  },
+  "Tokisaki:ProperMeal": {
+    "NAME": "A Proper Meal",
+    "FLAVOR": "Ignorant table manners are unacceptable.",
+    "DESCRIPTIONS": [
+      "When an enemy dies from #yTokisaki:Corrosion , your maximum health increases by 5 additionally."
+    ]
+  },
+  "Tokisaki:CatToy": {
+    "NAME": "Cat Toy",
+    "FLAVOR": "A must-have for attracting cats!",
+    "DESCRIPTIONS": [
+      "At the start of my turn, get #yTokisaki:Cat #b1."
+    ]
+  },
+  "Tokisaki:CastleThatBingeTime": {
+    "NAME": "Castle that binge time",
+    "FLAVOR": "If you eat a shadow, you can eat a person too, right?",
+    "DESCRIPTIONS": [
+      "At the end of my turn, Heal Tokisaki:Shadow (Max 3) hp."
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "Tokisaki:CastleThatEatTime": {
+    "NAME": "시간을 먹는 성",
+    "FLAVOR": "그림자(시간)을 보충하기 위한 최고의 수단입니다.",
+    "DESCRIPTIONS": [
+      "내 턴 시작 시, #yTokisaki:그림자 를 #b1 얻습니다."
+    ]
+  },
+  "Tokisaki:PlaceholderRelic2": {
+    "NAME": "Placeholder Relic 2",
+    "FLAVOR": "You feel stronger.",
+    "DESCRIPTIONS": [
+      "At the start of each combat, gain #b1 #yStrength."
+    ]
+  },
+  "Tokisaki:DefaultClickableRelic": {
+    "NAME": "Right-Clicky Relic",
+    "FLAVOR": "The more you right-click it, the more orbs you've evoked in your lifetime.",
+    "DESCRIPTIONS": [
+      "[#2aecd7]Usable [#2aecd7]once [#2aecd7]per [#2aecd7]turn.[] NL #yEvoke your rightmost Orb.",
+      "YOU ARE MINE!"
+    ]
+  },
+  "Tokisaki:BottledPlaceholderRelic": {
+    "NAME": "Bottled Placeholder",
+    "FLAVOR": "What is this?",
+    "DESCRIPTIONS": [
+      "Choose a card. Whenever you take play any card, draw the chosen card.",
+      "Whenever you play a card, draw ",
+      ".",
+      "Select a card to bottle for "
+    ]
+  },
+  "Tokisaki:ProperMeal": {
+    "NAME": "제대로 된 식사",
+    "FLAVOR": "교양없는 식사 예절은 사절이랍니다.",
+    "DESCRIPTIONS": [
+      "#yTokisaki:침식 으로 적이 죽으면 추가로 최대 체력이 5 증가합니다."
+    ]
+  },
+  "Tokisaki:CatToy": {
+    "NAME": "고양이 장난감",
+    "FLAVOR": "고양이를 유혹하기 위한 필수품!",
+    "DESCRIPTIONS": [
+      "내 턴 시작 시, #yTokisaki:고양이 를 #b1 얻습니다."
+    ]
+  },
+  "Tokisaki:CastleThatBingeTime": {
+    "NAME": "시간을 폭식하는 성",
+    "FLAVOR": "그림자를 먹다보면 사람도 하나쯤 먹을 수 있는 거잖아요?",
+    "DESCRIPTIONS": [
+      "내 턴 종료 시, #yTokisaki:그림자 만큼(최대 3) 체력을 회복합니다."
+    ]
+  }
+}
