@@ -1,0 +1,52 @@
+{
+  "Tokisaki:IdentityCrisisEvent": {
+    "NAME": "Identity Crisis",
+    "DESCRIPTIONS": [
+      "As you move through ~The~ ~City~ you come across a #pPurple #pMirror. NL You look at it, but you see no reflection.",
+      "You see no one but #g~You~ #g~wish~ #g~to~ #g~become~ #g~someone.~",
+      "#r@YOU@ #r@EXIST@ #r@AND@ #r@ARE@ #r@VALID!@",
+      "#yYou #yare #yat #ypeace #ywith #yyour #ypresence.",
+      "You have no hands."
+    ],
+    "OPTIONS": [
+      "[Inspiration] #gGain #ga #gRandom #gStarting #gRelic.",
+      "[Denial] #rLose #r",
+      " #rMax #rHP. #gRemove #ga #gCard #gfrom #gyour #gdeck.",
+      "[Acceptance] #gGain #gApotheosis.",
+      "[TOUCH THE MIRROR] TOUCH TOUCH TO#C# TOUCH TO UCH TOUCH #rTOUCH TOUCH",
+      "[Leave]",
+      "Select card to remove."
+    ]
+  },
+  "Tokisaki:MultiverseEvent": {
+    "NAME": "异域风情",
+    "DESCRIPTIONS": [
+      "你得到了一本熟悉的书，大号。 使用<囁告篇帙>还可以与其他世界航班的時崎狂三接触，带来所需的能力。 只是好像否认了这里的存在一样，非常紧张。 使用一次就结束了。 您要接触哪条世界航线？",
+      "遇到一个气氛相当危险的男人。 他看到你的枪，迅速掏出枪来。 世界上的你虽然去世了，但也能掌握男性的技术。",
+      "帅哥在战场上跑来跑去。 他连一支枪都没有。 令人惊讶的是，他是你的敌军。 但是我没有足够的子弹，所以我不能开枪。 我学到了子弹的珍贵。",
+      "遇到了长得奇怪的小猫猫。 不知为什么，应该叫群咯咯。 他教你怎么控制猫猫。"
+    ],
+    "OPTIONS": [
+      "[杀手的世界] #g获得莫桑比克钻机",
+      "[战争的世界] #g获得子弹补充。",
+      "[猫猫的世界] #g会得到脚底软糖",
+      "[离开]"
+    ]
+  },
+  "Tokisaki:CatForSaleEvent": {
+    "NAME": "领养猫猫",
+    "DESCRIPTIONS": [
+      "可爱的生命体向你发出哀伤的哭声。 虽然很想养，但问题是钱。 可爱的生命体怎么办？",
+      "你的钱包空空如也，你的甲板就装满了猫猫。",
+      "你作为玩具给我的卡片被无情地撕掉了。 什么。因为是猫猫。",
+      "只是看着心里就踏实了。 感觉可以重新奋力登上尖塔了"
+    ],
+    "OPTIONS": [
+      "[献上黄金] #r会失去黄金 #g猫猫咪大举迁移到甲板上去。",
+      "[把卡片当做玩具] #g把一张卡片从柜台上拿下来",
+      "[注视] #g体力最多增加10次",
+      "[离开]",
+      "请选择作为玩具的卡片。"
+    ]
+  }
+}

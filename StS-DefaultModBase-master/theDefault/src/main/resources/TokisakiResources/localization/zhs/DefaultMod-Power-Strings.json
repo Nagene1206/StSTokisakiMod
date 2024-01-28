@@ -1,0 +1,78 @@
+{
+"Tokisaki:ShadowPower": {
+        "NAME": "阴影",
+        "DESCRIPTIONS": ["影子就是时间了。", "", ""]
+},
+"Tokisaki:RarePower": {
+        "NAME": "Placeholder Power",
+        "DESCRIPTIONS": ["At the start of your turn, TOUCH #b", " enemy." , " enemies."]
+},
+"Tokisaki:HethPower": {
+        "NAME": "八之彈",
+        "DESCRIPTIONS": ["使用击打卡时，多使用 ", " 次击打卡", " 次击打卡"]
+},
+"Tokisaki:CatPower": {
+        "NAME": "猫猫",
+        "DESCRIPTIONS": ["不可能预测到猫猫。", "", ""]
+},
+"Tokisaki:CatKingdomPower": {
+        "NAME": "猫猫王国",
+        "DESCRIPTIONS": ["这里才是猫猫咪们的地上乐园。", "", ""]
+},
+"Tokisaki:CatHatePower": {
+        "NAME": "猫猫腻",
+        "DESCRIPTIONS": ["别的我不知道，但很明显猫猫不喜欢。", "", ""]
+},
+"Tokisaki:CorrosionPower": {
+        "NAME": "侵蚀",
+        "DESCRIPTIONS": ["旋转开始时，会损失 ", "", " 敌人死了，体力最多增加2。"]
+},
+"Tokisaki:AreaExpansionPower": {
+        "NAME": "花时间城堡",
+        "DESCRIPTIONS": ["在转弯开始时，对整个敌人的侵蚀程度为 ", "。", ""]
+},
+"Tokisaki:OwnerOfTheCastlePower": {
+        "NAME": "城东",
+        "DESCRIPTIONS": ["每次使用技能卡都会得到阴影 ", " 。", " 。"]
+},
+"Tokisaki:ClockworkPower": {
+        "NAME": "末日发条",
+        "DESCRIPTIONS": ["末日来临了。", "", ""]
+},
+"Tokisaki:TimeAttackPower": {
+        "NAME": "时间攻击",
+        "DESCRIPTIONS": ["每次开始时，获得力量、敏捷和侵蚀的", "。", ""]
+},
+"Tokisaki:ShadowOfShadowPower": {
+        "NAME": "影子模儿",
+        "DESCRIPTIONS": ["在每秒结束时，获得阴影 ", " n。", ""]
+},
+"Tokisaki:ShadowRainPower": {
+        "NAME": "阴雨",
+        "DESCRIPTIONS": ["每秒结束时，对整个敌人造成阴影般的伤害。", "", ""]
+},
+"Tokisaki:NekomimiPower": {
+        "NAME": "善变",
+        "DESCRIPTIONS": ["天哪，猫猫可能会把卡片弄灭的。", "", ""]
+},
+"Tokisaki:CorrosionShieldPower": {
+        "NAME": "侵蚀盾牌",
+        "DESCRIPTIONS": ["每秒结束时，根据敌人的侵蚀程度获得防御度。", "", ""]
+},
+"Tokisaki:ZaphkielPower": {
+        "NAME": "刻刻帝",
+        "DESCRIPTIONS": ["每次用卡都会抽 ", " 张。", " 张。", "这一轮可以使用 ", " 张卡。", "十二张已经用了。"]
+},
+"Tokisaki:WholeWorldIsCatPower": {
+        "NAME": "世界是由猫猫组成的",
+        "DESCRIPTIONS": ["每秒开始时，获得 ", " 张随机卡片。", " 张随机卡片。"]
+},
+"Tokisaki:CreateBulletPower": {
+        "NAME": "弹丸生成",
+        "DESCRIPTIONS": ["在每张开始时，将 ", " 张0成本的打击卡放入抽取的卡堆中。", " 张0成本的打击卡放入抽取的卡堆和丢弃的卡堆中。"]
+},
+"Tokisaki:BulletReplenishmentPower": {
+        "NAME": "弹丸补充",
+        "DESCRIPTIONS": ["使用击球卡时，抽出 ", " 张卡，获得防御度。", " 张卡，获得防御度。"]
+}
+}

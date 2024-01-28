@@ -71,19 +71,19 @@ public class CatKingdomPower extends AbstractPower implements CloneablePowerInte
             rnd.setSeed(System.currentTimeMillis());
 
             AbstractPlayer p = AbstractDungeon.player;
-            int num = amount;
-            if(amount > 5) num = 5;
+            int num = p.getPower(CatPower.POWER_ID).amount;
+            if(num > 5) num = 5;
 
             switch (rnd.nextInt(3))
             {
                 case 0:
-                    AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p, new StrengthPower(p, num)));
+                    AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p, new StrengthPower(p, num),num));
                     break;
                 case 1:
-                    AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p, new DexterityPower(p,num)));
+                    AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p, new DexterityPower(p,num),num));
                     break;
                 case 2:
-                    AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p, new ThornsPower(p,num)));
+                    AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p, new ThornsPower(p,num),num));
                     break;
             }
         }

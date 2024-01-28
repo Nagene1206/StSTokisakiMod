@@ -102,15 +102,15 @@ public class Rampage extends CustomCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         AbstractDungeon.actionManager.addToBottom(new GunShotAction());
-        AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(p, damage, damageTypeForTurn, AbstractGameAction.AttackEffect.BLUNT_HEAVY));
+        AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(p, multiDamage, damageTypeForTurn, AbstractGameAction.AttackEffect.BLUNT_HEAVY));
         AbstractDungeon.actionManager.addToBottom(new GunShotAction());
-        AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(p, damage, damageTypeForTurn, AbstractGameAction.AttackEffect.BLUNT_HEAVY));
+        AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(p, multiDamage, damageTypeForTurn, AbstractGameAction.AttackEffect.BLUNT_HEAVY));
         if(AbstractDungeon.player.hasPower(ShadowPower.POWER_ID))
         {
             if(AbstractDungeon.player.getPower(ShadowPower.POWER_ID).amount>4 && !upgraded)
             {
                 AbstractDungeon.actionManager.addToBottom(new GunShotAction());
-                AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(p, damage, damageTypeForTurn, AbstractGameAction.AttackEffect.BLUNT_HEAVY));
+                AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(p, multiDamage, damageTypeForTurn, AbstractGameAction.AttackEffect.BLUNT_HEAVY));
                 AbstractDungeon.player.getPower(ShadowPower.POWER_ID).amount -= 5;
 
                 if(AbstractDungeon.player.getPower(ShadowPower.POWER_ID).amount == 0)
@@ -119,7 +119,7 @@ public class Rampage extends CustomCard {
             else if(AbstractDungeon.player.getPower(ShadowPower.POWER_ID).amount>2 && upgraded)
             {
                 AbstractDungeon.actionManager.addToBottom(new GunShotAction());
-                AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(p, damage, damageTypeForTurn, AbstractGameAction.AttackEffect.BLUNT_HEAVY));
+                AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(p, multiDamage, damageTypeForTurn, AbstractGameAction.AttackEffect.BLUNT_HEAVY));
                 AbstractDungeon.player.getPower(ShadowPower.POWER_ID).amount -= 3;
 
                 if(AbstractDungeon.player.getPower(ShadowPower.POWER_ID).amount == 0)

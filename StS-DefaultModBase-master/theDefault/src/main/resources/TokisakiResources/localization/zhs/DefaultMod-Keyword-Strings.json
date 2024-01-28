@@ -1,21 +1,21 @@
 [
   {
     "NAMES": [
-      "shadow"
+      "阴影"
     ],
-    "DESCRIPTION": "You can use a particular card using a shadow."
+    "DESCRIPTION": "你可以使用阴影来使用特定的卡片。"
   },
   {
     "NAMES": [
-      "cat"
+      "猫猫"
     ],
-    "DESCRIPTION": "Cat? Cat!"
+    "DESCRIPTION": "猫猫? 猫猫!"
   },
   {
     "NAMES": [
-      "corrosion"
+      "侵蚀"
     ],
-    "DESCRIPTION": "At the start of each turn, you lose HP equal to this number. If an enemy dies due to Corrosion, maximum health increases by 2."
+    "DESCRIPTION": "每次开始旋转都会让你失去数值般的体力。 如果敌人因侵蚀而死亡，最大体力增加2。"
   },
   {
     "PROPER_NAME": "Multiword Keyword",

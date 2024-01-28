@@ -9,11 +9,11 @@
   },
   "Tokisaki:ShadowShot": {
     "NAME": "Shadow Shot",
-    "DESCRIPTION": "Tokisaki:Shadow 1 - Damage !D! damage. NL Tokisaki:Shadow 2 - Draw !M! cards. NL Tokisaki:Shadow 3 - Heal !M! health."
+    "DESCRIPTION": "Tokisaki:shadow 1 - Damage !D! damage. NL Tokisaki:shadow 2 - Draw !M! cards. NL Tokisaki:shadow 3 - Heal !M! health."
   },
   "Tokisaki:TimeAbsorption": {
     "NAME": "Time Absorption",
-    "DESCRIPTION": "Gain 2 Tokisaki:Shadow."
+    "DESCRIPTION": "Gain 2 Tokisaki:shadow."
   },
   "Tokisaki:Aleph": {
     "NAME": "1st Bullet, Aleph",
@@ -26,8 +26,8 @@
   },
   "Tokisaki:Gimel": {
     "NAME": "3rd Bullet, Gimel",
-    "DESCRIPTION": "Tokisaki:Shadow 1 - Upgrade 1 card for the rest of combat. NL Tokisaki:Shadow 3 - Instead Upgrade all cards in your hand.",
-    "UPGRADE_DESCRIPTION": "Tokisaki:Shadow 1 - Upgrade all cards in your hand for the rest of combat. NL Tokisaki:Shadow 3 - And Upgrade all cards in your draw pile too."
+    "DESCRIPTION": "Tokisaki:shadow 1 - Upgrade 1 card for the rest of combat. NL Tokisaki:shadow 3 - Instead Upgrade all cards in your hand.",
+    "UPGRADE_DESCRIPTION": "Tokisaki:shadow 1 - Upgrade all cards in your hand for the rest of combat. NL Tokisaki:shadow 3 - And Upgrade all cards in your draw pile too."
   },
   "Tokisaki:Daleth": {
     "NAME": "4th Bullet, Daleth",
@@ -62,35 +62,35 @@
   },
   "Tokisaki:YodAleph": {
     "NAME": "11th Bullet, Yod Aleph",
-    "DESCRIPTION": "Gain 10 Tokisaki:Shadow, Gain 3 Strength and Dexterity. End your turn. NL Exhaust."
+    "DESCRIPTION": "Gain 10 Tokisaki:shadow, Gain 3 Strength and Dexterity. End your turn. NL Exhaust."
   },
   "Tokisaki:YodBeth": {
     "NAME": "12th Bullet, Yod Beth",
-    "DESCRIPTION": "Exhaust up to 9 cards in your hand. Gain 5 Tokisaki:Shadow. Lose HP equal to the current floor. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Exhaust up to 9 cards in your hand. Gain 5 Tokisaki:Shadow. NL Exhaust."
+    "DESCRIPTION": "Exhaust up to 9 cards in your hand. Gain 5 Tokisaki:shadow. Lose HP equal to the current floor. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Exhaust up to 9 cards in your hand. Gain 5 Tokisaki:shadow. NL Exhaust."
   },
   "Tokisaki:Cat": {
     "NAME": "Cat",
-    "DESCRIPTION": "Lose as much health as Tokisaki:Cat, deal damage to all enemies, or draw a card. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Lose as much health as Tokisaki:Cat, deal damage to all enemies, draw a card, or gain a buffer NL Exhaust."
+    "DESCRIPTION": "Lose as much health as Tokisaki:cat, deal damage to all enemies, or draw a card. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Lose as much health as Tokisaki:cat, deal damage to all enemies, draw a card, or gain a buffer NL Exhaust."
   },
   "Tokisaki:CatKingdom": {
     "NAME": "Cat Kingdom",
-    "DESCRIPTION": "At the start of your turn, gain as much as Tokisaki:Cat (Max 5) Strength, Dexterity, or Thorns."
+    "DESCRIPTION": "At the start of your turn, gain as much as Tokisaki:cat (Max 5) Strength, Dexterity, or Thorns."
   },
   "Tokisaki:ActinidiaBranch": {
     "NAME": "Actinidia Branch",
-    "DESCRIPTION": "Lose half Tokisaki:Cat. Gain Tokisaki:Cat golds.",
-    "UPGRADE_DESCRIPTION": "Gain Tokisaki:Cat golds."
+    "DESCRIPTION": "Lose half Tokisaki:cat. Gain Tokisaki:cat golds.",
+    "UPGRADE_DESCRIPTION": "Gain Tokisaki:cat golds."
   },
   "Tokisaki:Chur": {
     "NAME": "Chur",
-    "DESCRIPTION": "Gain !M! Tokisaki:Cat. NL Exhaust."
+    "DESCRIPTION": "Gain !M! Tokisaki:cat. NL Exhaust."
   },
   "Tokisaki:CatTower": {
     "NAME": "Cat Tower",
-    "DESCRIPTION": "Gain !M! Tokisaki:Cat.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Tokisaki:Cat. Draw a card."
+    "DESCRIPTION": "Gain !M! Tokisaki:cat.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Tokisaki:cat. Draw a card."
   },
   "Tokisaki:PawPad": {
     "NAME": "Paw Pad",
@@ -98,16 +98,16 @@
   },
   "Tokisaki:CatPunch": {
     "NAME": "Cat Punch",
-    "DESCRIPTION": "Deal !D! damage Tokisaki:Cat times. NL 소멸."
+    "DESCRIPTION": "Deal !D! damage Tokisaki:cat times. NL Exhaust."
   },
   "Tokisaki:ShadowCat": {
     "NAME": "Shadow Cat",
-    "DESCRIPTION": "Consume all Tokisaki:Shadows and Gain Tokisaki:Cat as much as you consume.",
-    "UPGRADE_DESCRIPTION": "Gain Tokisaki:Cat as much as Tokisaki:Shadows."
+    "DESCRIPTION": "Consume all Tokisaki:shadow and Gain Tokisaki:cat as much as you consume.",
+    "UPGRADE_DESCRIPTION": "Gain Tokisaki:cat as much as Tokisaki:shadows."
   },
   "Tokisaki:Rampage": {
     "NAME": "Rampage",
-    "DESCRIPTION": "Deal !D! damage to all enemy. Tokisaki:Shadow - !M! : Not 2, 3 times."
+    "DESCRIPTION": "Deal !D! damage to all enemy. Tokisaki:shadow - !M! : Not 2, 3 times."
   },
   "Tokisaki:SpatialQuake": {
     "NAME": "Spatial Quake",
@@ -115,38 +115,38 @@
   },
   "Tokisaki:AreaExpansion": {
     "NAME": "Area Expansion",
-    "DESCRIPTION": "At the start of each turn, apply 1 Tokisaki:Corrosion to all enemies.",
-    "UPGRADE_DESCRIPTION": "Innate. NL At the start of each turn, apply 1 Tokisaki:Corrosion to all enemies."
+    "DESCRIPTION": "At the start of each turn, apply 1 Tokisaki:corrosion to all enemies.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the start of each turn, apply 1 Tokisaki:corrosion to all enemies."
   },
   "Tokisaki:CorrosionFlood": {
     "NAME": "CorrosionFlood",
-    "DESCRIPTION": "Consume all Tokisaki:Shadows and Apply Tokisaki:Corrosion as much as you consume."
+    "DESCRIPTION": "Consume all Tokisaki:shadows and Apply Tokisaki:corrosion as much as you consume."
   },
   "Tokisaki:ShadowSpace": {
     "NAME": "Shadow Space",
-    "DESCRIPTION": "Tokisaki:Shadow 3 - Gain 1 Intangible. NL Exhaust."
+    "DESCRIPTION": "Tokisaki:shadow 3 - Gain 1 Intangible. NL Exhaust."
   },
   "Tokisaki:OwnerOfTheCastle": {
     "NAME": "Owner of the castle",
-    "DESCRIPTION": "Whenever you play an Skill this turn, gain 1 Tokisaki:Shadow.",
-    "UPGRADE_DESCRIPTION": "Retain. NL Whenever you play an Skill this turn, gain 1 Tokisaki:Shadow."
+    "DESCRIPTION": "Whenever you play an Skill this turn, gain 1 Tokisaki:shadow.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Whenever you play an Skill this turn, gain 1 Tokisaki:shadow."
   },
   "Tokisaki:ShadowFood": {
     "NAME": "Food of Shadow",
-    "DESCRIPTION": "Tokisaki:Shadow 3 - Gain !M! Energy."
+    "DESCRIPTION": "Tokisaki:shadow 3 - Gain !M! Energy."
   },
   "Tokisaki:Nightmare": {
     "NAME": "Nightmare",
-    "DESCRIPTION": "Deal !D! Damage. Gain !M! Tokisaki:Shadow. Apply !M! Tokisaki:Corrosion."
+    "DESCRIPTION": "Deal !D! Damage. Gain !M! Tokisaki:shadow. Apply !M! Tokisaki:corrosion."
   },
   "Tokisaki:Araara": {
     "NAME": "ARA ARA",
-    "DESCRIPTION": "Tokisaki:Shadow 1 - Draw a card. NL Tokisaki:Shadow 2 - Draw 2 cards. NL Tokisaki:Shadow 3 - Draw 2 cards.",
-    "UPGRADE_DESCRIPTION": "Tokisaki:Shadow 1 - Draw a card and Gain !B! Block. NL Tokisaki:Shadow 2 - Draw 2 cards and Gain !B! Block. NL Tokisaki:Shadow 3 - Draw 2 cards."
+    "DESCRIPTION": "Tokisaki:shadow 1 - Draw a card. NL Tokisaki:shadow 2 - Draw 2 cards. NL Tokisaki:shadow 3 - Draw 2 cards.",
+    "UPGRADE_DESCRIPTION": "Tokisaki:shadow 1 - Draw a card and Gain !B! Block. NL Tokisaki:shadow 2 - Draw 2 cards and Gain !B! Block. NL Tokisaki:shadow 3 - Draw 2 cards."
   },
   "Tokisaki:EEDeathwa": {
     "NAME": "EE Death Wa",
-    "DESCRIPTION": "Apply !M! Tokisaki:Corrosion. Gain !B! Block. NL Exhaust."
+    "DESCRIPTION": "Apply !M! Tokisaki:corrosion. Gain !B! Block. NL Exhaust."
   },
   "Tokisaki:Psycho": {
     "NAME": "Psycho death wa",
@@ -154,7 +154,7 @@
   },
   "Tokisaki:Kihihihi": {
     "NAME": "Kihihihi",
-    "DESCRIPTION": "Tokisaki:Shadow 1 - Gain !B! Block. NL Tokisaki:Shadow 2 - Gain !B! Block. NL Tokisaki:Shadow 3 - Gain !B! Block."
+    "DESCRIPTION": "Tokisaki:shadow 1 - Gain !B! Block. NL Tokisaki:shadow 2 - Gain !B! Block. NL Tokisaki:shadow 3 - Gain !B! Block."
   },
   "Tokisaki:Crazy": {
     "NAME": "Crazy",
@@ -163,11 +163,11 @@
   "Tokisaki:Three": {
     "NAME": "Three",
     "DESCRIPTION": "Ethereal. NL Deal !D! damage 3 times.",
-    "UPGRADE_DESCRIPTION": "Ethereal. NL Deal !D! damage 3 times. Gain 3 Tokisaki:Shadow."
+    "UPGRADE_DESCRIPTION": "Ethereal. NL Deal !D! damage 3 times. Gain 3 Tokisaki:shadow."
   },
   "Tokisaki:Elohim": {
     "NAME": "Elohim",
-    "DESCRIPTION": "Tokisaki:Shadow3 - Gain 6 Plated Armor. NL Tokisaki:Shadow 5 - Gain 1 Artifact. NL Tokisaki:Shadow 7 - Gain 1 Buffer. NL Tokisaki:Shadow 9 - Gain 1 Intangible. NL Exhaust."
+    "DESCRIPTION": "Tokisaki:shadow3 - Gain 6 Plated Armor. NL Tokisaki:shadow 5 - Gain 1 Artifact. NL Tokisaki:shadow 7 - Gain 1 Buffer. NL Tokisaki:shadow 9 - Gain 1 Intangible. NL Exhaust."
   },
   "Tokisaki:SchoolUniform": {
     "NAME": "School Uniform",
@@ -185,25 +185,25 @@
   },
   "Tokisaki:MagicDetective": {
     "NAME": "Magic Detective",
-    "DESCRIPTION": "Tokisaki:Shadow 1 - Apply 2 weak. NL Tokisaki:Shadow 3 - Apply 3 Tokisaki:Corrosion. NL Tokisaki:Shadow 5 - Apply Slow.",
-    "UPGRADE_DESCRIPTION": "Tokisaki:Shadow 1 - Apply 2 weak. NL Tokisaki:Shadow 2 - Apply 3 Tokisaki:Corrosion. NL Tokisaki:Shadow 3 - Apply Slow."
+    "DESCRIPTION": "Tokisaki:Shadow 1 - Apply 2 weak. NL Tokisaki:shadow 3 - Apply 3 Tokisaki:corrosion. NL Tokisaki:shadow 5 - Apply Slow.",
+    "UPGRADE_DESCRIPTION": "Tokisaki:shadow 1 - Apply 2 weak. NL Tokisaki:shadow 2 - Apply 3 Tokisaki:corrosion. NL Tokisaki:shadow 3 - Apply Slow."
   },
   "Tokisaki:Clockwork": {
     "NAME": "Clockwork",
-    "DESCRIPTION": "Tokisaki:Shadow 12 - After !M! turns, Deal 1200 damage to all enemy at turn end."
+    "DESCRIPTION": "Tokisaki:shadow 12 - After !M! turns, Deal 1200 damage to all enemy at turn end."
   },
   "Tokisaki:ShadowHand": {
     "NAME": "Shadow Hand",
-    "DESCRIPTION": "Tokisaki:Shadow !M! - Reduces all defend and deal !D! damage."
+    "DESCRIPTION": "Tokisaki:shadow !M! - Reduces all defend and deal !D! damage."
   },
   "Tokisaki:TimeAttack": {
     "NAME": "Time Attack",
-    "DESCRIPTION": "At the start of each turn, Gain 3 Strength, Dexterity and Tokisaki:Corrosion.",
-    "UPGRADE_DESCRIPTION": "Innate. NL At the start of each turn, Gain 3 Strength, Dexterity and Tokisaki:Corrosion."
+    "DESCRIPTION": "At the start of each turn, Gain 3 Strength, Dexterity and Tokisaki:corrosion.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the start of each turn, Gain 3 Strength, Dexterity and Tokisaki:corrosion."
   },
   "Tokisaki:ShadowOfShadow": {
     "NAME": "Shadow of Shadow",
-    "DESCRIPTION": "At the end of each turn, Gain !M! Tokisaki:Shadow."
+    "DESCRIPTION": "At the end of each turn, Gain !M! Tokisaki:shadow."
   },
   "Tokisaki:WalkedTime": {
     "NAME": "Walked Time",
@@ -237,16 +237,16 @@
   },
   "Tokisaki:BloodAndShadow": {
     "NAME": "Blood And Shadow",
-    "DESCRIPTION": "Lose !M! hp. Deal !D! damage. NL Tokisaki:Shadow 1 - Heal 2 hp."
+    "DESCRIPTION": "Lose !M! hp. Deal !D! damage. NL Tokisaki:shadow 1 - Heal 2 hp."
   },
   "Tokisaki:DoubleTap": {
     "NAME": "Double Tap",
-    "DESCRIPTION": "Deal !D! damage 2 times. NL Tokisaki:Shadow 1 - Apply !M! Vulnerable. NL Tokisaki:Shadow 2 - Draw !M! cards."
+    "DESCRIPTION": "Deal !D! damage 2 times. NL Tokisaki:shadow 1 - Apply !M! Vulnerable. NL Tokisaki:shadow 2 - Draw !M! cards."
   },
   "Tokisaki:ALittleBigCat": {
     "NAME": "A Little Big Cat",
-    "DESCRIPTION": "Deal damage and Apply weak equal to Tokisaki:Cat. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Deal damage and Apply weak equal to Tokisaki:Cat."
+    "DESCRIPTION": "Deal damage and Apply weak equal to Tokisaki:cat. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal damage and Apply weak equal to Tokisaki:cat."
   },
   "Tokisaki:BrokenCat": {
     "NAME": "Broken Cat",
@@ -254,11 +254,11 @@
   },
   "Tokisaki:GoodMeal": {
     "NAME": "Enjoy the meal",
-    "DESCRIPTION": "Deal (!D! + Consuming all Tokisaki:Shadodw and Tokisaki:Corrosion) damage. if Fatal, raise your Max HP by 5. NL Exhaust."
+    "DESCRIPTION": "Deal (!D! + Consuming all Tokisaki:shadodw and Tokisaki:corrosion damage. if Fatal, raise your Max HP by 5. NL Exhaust."
   },
   "Tokisaki:SpreadingCorrosion": {
     "NAME": "Spreading Corrosion",
-    "DESCRIPTION": "Deal !D! damage. If enemy has Tokisaki:Corrosion, make Tokisaki:Corrosion !M! times. NL Exhaust."
+    "DESCRIPTION": "Deal !D! damage. If enemy has Tokisaki:corrosion, make Tokisaki:corrosion !M! times. NL Exhaust."
   },
   "Tokisaki:Mozambique": {
     "NAME": "Mozambique Drill",
@@ -266,7 +266,7 @@
   },
   "Tokisaki:TimeIsGold": {
     "NAME": "Time is gold",
-    "DESCRIPTION": "Gain gold equal to its Tokisaki:Corrosion !M! times."
+    "DESCRIPTION": "Gain gold equal to its Tokisaki:corrosion !M! times."
   },
   "Tokisaki:TheMore": {
     "NAME": "The More, The Merrier",
@@ -274,7 +274,7 @@
   },
   "Tokisaki:CatHand": {
     "NAME": "Cat Hand",
-    "DESCRIPTION": "Lending hand of cat. Repeat Tokisaki:Cat times."
+    "DESCRIPTION": "Lending hand of cat. Repeat Tokisaki:cat times."
   },
   "Tokisaki:DayOfCat": {
     "NAME": "Day of cat",
@@ -282,7 +282,7 @@
   },
   "Tokisaki:CorrosionCat": {
     "NAME": "Corrosion Cat",
-    "DESCRIPTION": "Apply Tokisaki:Corrosion equal to Tokisaki:Cat. NL Exhaust."
+    "DESCRIPTION": "Apply Tokisaki:corrosion equal to Tokisaki:cat. NL Exhaust."
   },
   "Tokisaki:CatIsBestMedicine": {
     "NAME": "Cat is Best Medicine",
@@ -290,16 +290,16 @@
   },
   "Tokisaki:ShadowRain": {
     "NAME": "ShadowRain",
-    "DESCRIPTION": "At the end of each turn, Deal damage equal to Tokisaki:Shadow all enemy.",
-    "UPGRADE_DESCRIPTION": "Innate. NL At the end of each turn, Deal damage equal to Tokisaki:Shadow all enemy."
+    "DESCRIPTION": "At the end of each turn, Deal damage equal to Tokisaki:shadow all enemy.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the end of each turn, Deal damage equal to Tokisaki:shadow all enemy."
   },
   "Tokisaki:Nekomimi": {
     "NAME": "Nekomimi",
-    "DESCRIPTION": "Cost of every cards be !M!. But Tokisaki:Cat can be capricious."
+    "DESCRIPTION": "Cost of every cards be !M!. But Tokisaki:cat can be capricious."
   },
   "Tokisaki:CorrosionShield": {
     "NAME": "Corrosion Shield",
-    "DESCRIPTION": "At the end of each turn, Gain Block equal to Tokisaki:Corrosion in all enemy."
+    "DESCRIPTION": "At the end of each turn, Gain Block equal to Tokisaki:corrosion in all enemy."
   },
   "Tokisaki:Zaphkiel": {
     "NAME": "Zaphkiel",
@@ -321,26 +321,26 @@
   },
   "Tokisaki:BloodAndTime": {
     "NAME": "Blood And Time",
-    "DESCRIPTION": "Lose 3 hp. Gain !B! Block. Gain !M! Tokisaki:Shadow."
+    "DESCRIPTION": "Lose 3 hp. Gain !B! Block. Gain !M! Tokisaki:shadow."
   },
   "Tokisaki:Trash": {
     "NAME": "Trash",
-    "DESCRIPTION": "Tokisaki:Cat brought it. NL Deal !D! Damage. NL Exhaust."
+    "DESCRIPTION": "Tokisaki:cat brought it. NL Deal !D! Damage. NL Exhaust."
   },
   "Tokisaki:Fish": {
     "NAME": "Fish",
-    "DESCRIPTION": "Tokisaki:Cat brought it. NL Heal 5 hp. Draw !M! card. NL Exhaust."
+    "DESCRIPTION": "Tokisaki:cat brought it. NL Heal 5 hp. Draw !M! card. NL Exhaust."
   },
   "Tokisaki:Flower": {
     "NAME": "Flower",
-    "DESCRIPTION": "Tokisaki:Cat brought it. NL Gain !M! Energy. NL Exhaust."
+    "DESCRIPTION": "Tokisaki:cat brought it. NL Gain !M! Energy. NL Exhaust."
   },
   "Tokisaki:AngryCat": {
     "NAME": "Angry Cat",
-    "DESCRIPTION": "Tokisaki:Cat brought it. NL When draw this card, Exhaust random card. NL Exhaust."
+    "DESCRIPTION": "Tokisaki:cat brought it. NL When draw this card, Exhaust random card. NL Exhaust."
   },
   "Tokisaki:HappyCat": {
     "NAME": "Happy Cat",
-    "DESCRIPTION": "Tokisaki:Cat brought it. Gain !M! Energy and Draw !M! cards. NL Exhaust."
+    "DESCRIPTION": "Tokisaki:cat brought it. Gain !M! Energy and Draw !M! cards. NL Exhaust."
   }
 }

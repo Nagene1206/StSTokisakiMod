@@ -477,6 +477,9 @@ public class DefaultMod implements
             case KOR:
                 pathByLanguage = getModID() + "Resources/localization/" + "kor/";
                 break;
+            case ZHS:
+                pathByLanguage = getModID() + "Resources/localization/" + "zhs/";
+                break;
             default:
                 pathByLanguage = getModID() + "Resources/localization/" + "eng/";
         }
@@ -532,6 +535,9 @@ public class DefaultMod implements
         switch(Settings.language) {
             case KOR:
                 pathByLanguage = getModID() + "Resources/localization/" + "kor/";
+                break;
+            case ZHS:
+                pathByLanguage = getModID() + "Resources/localization/" + "zhs/";
                 break;
             default:
                 pathByLanguage = getModID() + "Resources/localization/" + "eng/";

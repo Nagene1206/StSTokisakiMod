@@ -35,7 +35,7 @@
     "NAME": "A Proper Meal",
     "FLAVOR": "Ignorant table manners are unacceptable.",
     "DESCRIPTIONS": [
-      "When an enemy dies from #yTokisaki:Corrosion , your maximum health increases by 5 additionally."
+      "When an enemy dies from #yTokisaki:Corrosion , your maximum health increases by #b5 additionally."
     ]
   },
   "Tokisaki:CatToy": {
