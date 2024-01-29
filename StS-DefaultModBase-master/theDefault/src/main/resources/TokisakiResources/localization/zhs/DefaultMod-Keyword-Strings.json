@@ -1,15 +1,16 @@
 [
   {
     "NAMES": [
-      "阴影"
+      "阴影",
+      "影子"
     ],
     "DESCRIPTION": "你可以使用阴影来使用特定的卡片。"
   },
   {
     "NAMES": [
-      "猫猫"
+      "猫"
     ],
-    "DESCRIPTION": "猫猫? 猫猫!"
+    "DESCRIPTION": "猫? 猫!"
   },
   {
     "NAMES": [

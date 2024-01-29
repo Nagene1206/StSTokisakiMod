@@ -545,11 +545,23 @@ public class DefaultMod implements
 
         String json = Gdx.files.internal(pathByLanguage + "DefaultMod-Keyword-Strings.json").readString(String.valueOf(StandardCharsets.UTF_8));
         com.evacipated.cardcrawl.mod.stslib.Keyword[] keywords = gson.fromJson(json, com.evacipated.cardcrawl.mod.stslib.Keyword[].class);
-        
-        if (keywords != null) {
-            for (Keyword keyword : keywords) {
-                BaseMod.addKeyword(getModID().toLowerCase(), keyword.PROPER_NAME, keyword.NAMES, keyword.DESCRIPTION);
-                //  getModID().toLowerCase() makes your keyword mod specific (it won't show up in other cards that use that word)
+
+        if(Settings.language == Settings.GameLanguage.ZHS)  //Chinese Different another language!!!
+        {
+            if (keywords != null) {
+                for (Keyword keyword : keywords) {
+                    BaseMod.addKeyword(keyword.NAMES,keyword.DESCRIPTION);
+                    //  getModID().toLowerCase() makes your keyword mod specific (it won't show up in other cards that use that word)
+                }
+            }
+        }
+        else
+        {
+            if (keywords != null) {
+                for (Keyword keyword : keywords) {
+                    BaseMod.addKeyword(getModID().toLowerCase(), keyword.PROPER_NAME, keyword.NAMES, keyword.DESCRIPTION);
+                    //  getModID().toLowerCase() makes your keyword mod specific (it won't show up in other cards that use that word)
+                }
             }
         }
     }
