@@ -62,7 +62,7 @@
   },
   "Tokisaki:YodAleph": {
     "NAME": "十一之彈",
-    "DESCRIPTION": "得到10个 影子 。 力量和敏捷度得到3。 结束旋转 。 NL 消耗 。"
+    "DESCRIPTION": "得到10个 影子 。 结束旋转 。 NL 消耗 。"
   },
   "Tokisaki:YodBeth": {
     "NAME": "十二之彈",
@@ -94,7 +94,7 @@
   },
   "Tokisaki:PawPad": {
     "NAME": "脚底软糖",
-    "DESCRIPTION": "[猫腻]赋予它. NL 消耗 。"
+    "DESCRIPTION": "[猫腻]赋予它. 得到 猫 咪 3 NL 消耗 。"
   },
   "Tokisaki:CatPunch": {
     "NAME": "喵喵拳头",
@@ -141,8 +141,8 @@
   },
   "Tokisaki:Araara": {
     "NAME": "哎哟哎哟",
-    "DESCRIPTION": "阴影 1 - 抽一张卡。 NL 阴影 2 - 抽两张卡。 NL 阴影 3 - 抽两张卡。",
-    "UPGRADE_DESCRIPTION": "阴影 1 - 抽一张卡片，获得防御!B! NL 阴影 2 - 抽两张卡，获得防御!B! NL 阴影 3 - 抽两张卡。"
+    "DESCRIPTION": "阴影 1 - 抽一张卡。 NL 阴影 2 - 抽一张卡。 NL 阴影 3 - 抽两张卡。",
+    "UPGRADE_DESCRIPTION": "阴影 1 - 抽一张卡片，获得防御!B! NL 阴影 2 - 抽一张卡，获得防御!B!+2 NL 阴影 3 - 抽两张卡，获得防御!B!+4。"
   },
   "Tokisaki:EEDeathwa": {
     "NAME": "很好",
@@ -175,8 +175,8 @@
   },
   "Tokisaki:Nyah": {
     "NAME": "吐舌头",
-    "DESCRIPTION": "把敌人的体力减掉5。",
-    "UPGRADE_DESCRIPTION": "把敌人的体力减掉10。"
+    "DESCRIPTION": "无视防御，将敌人的体力削减5。",
+    "UPGRADE_DESCRIPTION": "无视防御，将敌人的体力削减10。"
   },
   "Tokisaki:GreatDetective": {
     "NAME": "名侦探",
@@ -194,7 +194,7 @@
   },
   "Tokisaki:ShadowHand": {
     "NAME": "影子手",
-    "DESCRIPTION": "阴影 !M! - 减少防御度，伤害!D!"
+    "DESCRIPTION": "阴影 !M! - 减少敌人的所有防御，造成损失!D!"
   },
   "Tokisaki:TimeAttack": {
     "NAME": "时间攻击",
@@ -233,7 +233,7 @@
   },
   "Tokisaki:Trample": {
     "NAME": "踩踏",
-    "DESCRIPTION": "损失相当于最大体力的!M!%（下降）。"
+    "DESCRIPTION": "损失相当于敌人最大体力的!M!%(下降)。"
   },
   "Tokisaki:BloodAndShadow": {
     "NAME": "血与影",
@@ -321,7 +321,7 @@
   },
   "Tokisaki:BloodAndTime": {
     "NAME": "血与时间",
-    "DESCRIPTION": "会失去3的体力。 获得防御!B! 获得 阴影 !M!"
+    "DESCRIPTION": "会失去!M!的体力。 获得防御!B! 获得 阴影 1"
   },
   "Tokisaki:Trash": {
     "NAME": "垃圾 ",

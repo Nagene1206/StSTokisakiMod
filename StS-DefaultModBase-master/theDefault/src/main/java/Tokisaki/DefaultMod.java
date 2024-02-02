@@ -3,6 +3,9 @@ package Tokisaki;
 import Tokisaki.cards.Strike_T;
 import Tokisaki.events.CatForSaleEvent;
 import Tokisaki.events.MultiverseEvent;
+import Tokisaki.potions.CatPotion;
+import Tokisaki.potions.CorrosionPotion;
+import Tokisaki.potions.ShadowPotion;
 import Tokisaki.relics.*;
 import basemod.*;
 import basemod.eventUtil.AddEventParams;
@@ -23,6 +26,7 @@ import com.megacrit.cardcrawl.helpers.CardHelper;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
+import org.apache.commons.lang3.ObjectUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import Tokisaki.characters.TheDefault;
@@ -385,7 +389,10 @@ public class DefaultMod implements
         // just remove the player class at the end (in this case the "TheDefaultEnum.THE_DEFAULT".
         // Remember, you can press ctrl+P inside parentheses like addPotions)
         //BaseMod.addPotion(PlaceholderPotion.class, PLACEHOLDER_POTION_LIQUID, PLACEHOLDER_POTION_HYBRID, PLACEHOLDER_POTION_SPOTS, PlaceholderPotion.POTION_ID, TOKISAKI);
-        
+        BaseMod.addPotion(ShadowPotion.class, Color.DARK_GRAY,Color.GRAY, null, ShadowPotion.POTION_ID, TOKISAKI);
+        BaseMod.addPotion(CatPotion.class, Color.BROWN,Color.WHITE, Color.BLACK, CatPotion.POTION_ID, TOKISAKI);
+        BaseMod.addPotion(CorrosionPotion.class, Color.DARK_GRAY,Color.BLACK, null, CorrosionPotion.POTION_ID, TOKISAKI);
+
         logger.info("Done editing potions");
     }
     

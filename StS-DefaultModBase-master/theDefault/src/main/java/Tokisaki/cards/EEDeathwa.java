@@ -42,7 +42,7 @@ public class EEDeathwa extends AbstractDynamicCard {
     private static final int COST = 1;
     private static final int MAGIC_NUMBER = 3;
     private static final int BLOCK = 5;
-    private static final int UPGRADE_BLOCK = 15;
+    private static final int UPGRADE_BLOCK = 5;
     // /STAT DECLARATION/
 
 

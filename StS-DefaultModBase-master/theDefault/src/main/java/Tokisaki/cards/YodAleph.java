@@ -55,8 +55,6 @@ public class YodAleph extends AbstractDynamicCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p, new ShadowPower(p, p, 10),10));
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p, new StrengthPower(p,3),3));
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p, new DexterityPower(p,3),3));
         AbstractDungeon.actionManager.addToBottom(new PressEndTurnButtonAction());
     }
 

@@ -64,7 +64,7 @@ public class Nightmare extends CustomCard {
 
     private static final int COST = 2;
     private static final int DAMAGE = 9;
-    private static final int MAGIC_NUMBER = 9;
+    private static final int MAGIC_NUMBER = 3;
     private static final int UPGRADE_COST= 1;
 
     // Hey want a second damage/magic/block/unique number??? Great!

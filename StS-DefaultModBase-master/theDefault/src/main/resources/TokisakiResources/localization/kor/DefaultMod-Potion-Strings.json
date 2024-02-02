@@ -2,5 +2,17 @@
 "Tokisaki:PlaceholderPotion": {
         "NAME": "Placeholder Potion",
         "DESCRIPTIONS": ["Gain ", " At the end of your turn, lose ", " Strength."]
+},
+"Tokisaki:ShadowPotion": {
+        "NAME": "그림자 포션",
+        "DESCRIPTIONS": ["#y그림자 를 ", " 얻습니다."]
+},
+"Tokisaki:CatPotion": {
+        "NAME": "고양이 포션",
+        "DESCRIPTIONS": ["#y고양이 를 ", " 얻습니다."]
+},
+"Tokisaki:CorrosionPotion": {
+        "NAME": "침식 포션",
+        "DESCRIPTIONS": ["적에게 #y침식 을 ", " 부여합니다."]
 }
 }

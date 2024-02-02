@@ -41,7 +41,7 @@ public class Araara extends AbstractDynamicCard {
     public static final CardColor COLOR = TheDefault.Enums.COLOR_GRAY;
 
     private static final int COST = 1;
-    private static final int BLOCK = 5;
+    private static final int BLOCK = 1;
 
     // /STAT DECLARATION/
 
@@ -64,19 +64,20 @@ public class Araara extends AbstractDynamicCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         AbstractDungeon.actionManager.addToBottom(new DrawCardAction(1));
+        if(upgraded) AbstractDungeon.actionManager.addToBottom(new GainBlockAction(p, block));
 
         AbstractDungeon.player.getPower(ShadowPower.POWER_ID).amount -= 1;
         if(AbstractDungeon.player.getPower(ShadowPower.POWER_ID).amount > 0)
         {
-            AbstractDungeon.actionManager.addToBottom(new DrawCardAction(p, 2));
-            if(upgraded) AbstractDungeon.actionManager.addToBottom(new GainBlockAction(p, block));
+            AbstractDungeon.actionManager.addToBottom(new DrawCardAction(p, 1));
+            if(upgraded) AbstractDungeon.actionManager.addToBottom(new GainBlockAction(p, block+2));
 
             AbstractDungeon.player.getPower(ShadowPower.POWER_ID).amount -= 1;
 
             if(AbstractDungeon.player.getPower(ShadowPower.POWER_ID).amount > 0)
             {
                 AbstractDungeon.actionManager.addToBottom(new DrawCardAction(p, 2));
-                if(upgraded) AbstractDungeon.actionManager.addToBottom(new GainBlockAction(p, block));
+                if(upgraded) AbstractDungeon.actionManager.addToBottom(new GainBlockAction(p, block+4));
 
                 AbstractDungeon.player.getPower(ShadowPower.POWER_ID).amount -= 1;
             }

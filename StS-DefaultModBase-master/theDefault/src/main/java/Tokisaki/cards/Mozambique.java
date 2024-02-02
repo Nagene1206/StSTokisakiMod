@@ -68,7 +68,6 @@ public class Mozambique extends CustomCard {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
 
         damage = baseDamage = DAMAGE;
-        this.exhaust = true;
     }
 
     // Actions the card should do.

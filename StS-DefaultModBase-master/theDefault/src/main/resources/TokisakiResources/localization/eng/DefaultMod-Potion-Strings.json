@@ -2,5 +2,17 @@
 "Tokisaki:PlaceholderPotion": {
         "NAME": "Placeholder Potion",
         "DESCRIPTIONS": ["Gain ", " At the end of your turn, lose ", " Strength."]
+},
+"Tokisaki:ShadowPotion": {
+        "NAME": "Shaodw Potion",
+        "DESCRIPTIONS": ["Gain ", " #yshadow ."]
+},
+"Tokisaki:CatPotion": {
+        "NAME": "Cat Potion",
+        "DESCRIPTIONS": ["Gain ", " #ycat."]
+},
+"Tokisaki:CorrosionPotion": {
+        "NAME": "Corrosion Potion",
+        "DESCRIPTIONS": ["Apply ", " #ycorrosion to enemy."]
 }
 }

@@ -65,8 +65,8 @@ public class Rampage extends CustomCard {
 
     private static final int COST = 2;
     private static final int DAMAGE = 9;
-    private static final int MAGIC_NUMBER = 5;
-    private static final int UPGRADE_NUMBER = -2;
+    private static final int MAGIC_NUMBER = 4;
+    private static final int UPGRADE_NUMBER = -1;
 
     // Hey want a second damage/magic/block/unique number??? Great!
     // Go check out DefaultAttackWithVariable and theDefault.variable.DefaultCustomVariable

@@ -62,7 +62,7 @@
   },
   "Tokisaki:YodAleph": {
     "NAME": "열한번째 탄환, 유드 알레프",
-    "DESCRIPTION": "Tokisaki:그림자 를 10 얻습니다. 힘 과 민첩 을 3 얻습니다. 턴을 종료합니다. NL 소멸."
+    "DESCRIPTION": "Tokisaki:그림자 를 10 얻습니다. 턴을 종료합니다. NL 소멸."
   },
   "Tokisaki:YodBeth": {
     "NAME": "열두번째 탄환, 유드 베트",
@@ -94,7 +94,7 @@
   },
   "Tokisaki:PawPad": {
     "NAME": "발바닥 젤리",
-    "DESCRIPTION": "[고양이가 싫어함] 을 부여합니다. NL 소멸."
+    "DESCRIPTION": "[고양이가 싫어함] 을 부여합니다. Tokisaki:고양이 를 3 얻습니다. NL 소멸."
   },
   "Tokisaki:CatPunch": {
     "NAME": "냥냥펀치",
@@ -141,8 +141,8 @@
   },
   "Tokisaki:Araara": {
     "NAME": "아라 아라",
-    "DESCRIPTION": "Tokisaki:그림자 1 - 카드를 1장 뽑습니다. NL Tokisaki:그림자 2 - 카드를 2장 뽑습니다. NL Tokisaki:그림자 3 - 카드를 2장 뽑습니다.",
-    "UPGRADE_DESCRIPTION": "Tokisaki:그림자 1 - 카드를 1장 뽑고 방어도를 !B! 얻습니다. NL Tokisaki:그림자 2 - 카드를 2장 뽑고 방어도를 !B! 얻습니다. NL Tokisaki:그림자 3 - 카드를 2장 뽑습니다."
+    "DESCRIPTION": "Tokisaki:그림자 1 - 카드를 1장 뽑습니다. NL Tokisaki:그림자 2 - 카드를 1장 뽑습니다. NL Tokisaki:그림자 3 - 카드를 2장 뽑습니다.",
+    "UPGRADE_DESCRIPTION": "Tokisaki:그림자 1 - 카드를 1장 뽑고 방어도를 !B! 얻습니다. NL Tokisaki:그림자 2 - 카드를 1장 뽑고 방어도를 !B!+2 얻습니다. NL Tokisaki:그림자 3 - 카드를 2장 뽑고 방어도를 !B!+4 얻습니다."
   },
   "Tokisaki:EEDeathwa": {
     "NAME": "EE Death Wa",
@@ -175,8 +175,8 @@
   },
   "Tokisaki:Nyah": {
     "NAME": "메롱",
-    "DESCRIPTION": "적의 체력을 5 깎습니다.",
-    "UPGRADE_DESCRIPTION": "적의 체력을 10 깎습니다."
+    "DESCRIPTION": "방어도를 무시하고 적의 체력을 5 깎습니다.",
+    "UPGRADE_DESCRIPTION": "방어도를 무시하고 적의 체력을 10 깎습니다."
   },
   "Tokisaki:GreatDetective": {
     "NAME": "명탐정",
@@ -194,7 +194,7 @@
   },
   "Tokisaki:ShadowHand": {
     "NAME": "그림자 손",
-    "DESCRIPTION": "Tokisaki:그림자 !M! - 방어도를 모두 감소시키고 피해를 !D! 줍니다."
+    "DESCRIPTION": "Tokisaki:그림자 !M! - 적의 방어도를 모두 감소시키고 피해를 !D! 줍니다."
   },
   "Tokisaki:TimeAttack": {
     "NAME": "타임 어택",
@@ -233,7 +233,7 @@
   },
   "Tokisaki:Trample": {
     "NAME": "짓밟기",
-    "DESCRIPTION": "피해를 최대 체력의 !M!%(내림)만큼 줍니다."
+    "DESCRIPTION": "피해를 적의 최대 체력의 !M!%(내림)만큼 줍니다."
   },
   "Tokisaki:BloodAndShadow": {
     "NAME": "피와 그림자",
@@ -321,7 +321,7 @@
   },
   "Tokisaki:BloodAndTime": {
     "NAME": "피와 시간",
-    "DESCRIPTION": "체력을 3 잃습니다. 방어도를 !B! 얻습니다. Tokisaki:그림자 를 !M! 얻습니다."
+    "DESCRIPTION": "체력을 !M! 잃습니다. 방어도를 !B! 얻습니다. Tokisaki:그림자 를 1 얻습니다."
   },
   "Tokisaki:Trash": {
     "NAME": "쓰레기",

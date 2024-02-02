@@ -62,7 +62,7 @@
   },
   "Tokisaki:YodAleph": {
     "NAME": "11th Bullet, Yod Aleph",
-    "DESCRIPTION": "Gain 10 Tokisaki:shadow, Gain 3 Strength and Dexterity. End your turn. NL Exhaust."
+    "DESCRIPTION": "Gain 10 Tokisaki:shadow. End your turn. NL Exhaust."
   },
   "Tokisaki:YodBeth": {
     "NAME": "12th Bullet, Yod Beth",
@@ -94,7 +94,7 @@
   },
   "Tokisaki:PawPad": {
     "NAME": "Paw Pad",
-    "DESCRIPTION": "Apply [Cat hate this]. NL Exhaust."
+    "DESCRIPTION": "Apply [Cat hate this]. Gain 3 Tokisaki:cat. NL Exhaust."
   },
   "Tokisaki:CatPunch": {
     "NAME": "Cat Punch",
@@ -103,11 +103,11 @@
   "Tokisaki:ShadowCat": {
     "NAME": "Shadow Cat",
     "DESCRIPTION": "Consume all Tokisaki:shadow and Gain Tokisaki:cat as much as you consume.",
-    "UPGRADE_DESCRIPTION": "Gain Tokisaki:cat as much as Tokisaki:shadows."
+    "UPGRADE_DESCRIPTION": "Gain Tokisaki:cat as much as Tokisaki:shadow."
   },
   "Tokisaki:Rampage": {
     "NAME": "Rampage",
-    "DESCRIPTION": "Deal !D! damage to all enemy. Tokisaki:shadow - !M! : Not 2, 3 times."
+    "DESCRIPTION": "Deal !D! damage to all enemy 2 times. Tokisaki:shadow - !M! : Not 2, 3 times."
   },
   "Tokisaki:SpatialQuake": {
     "NAME": "Spatial Quake",
@@ -120,7 +120,7 @@
   },
   "Tokisaki:CorrosionFlood": {
     "NAME": "CorrosionFlood",
-    "DESCRIPTION": "Consume all Tokisaki:shadows and Apply Tokisaki:corrosion as much as you consume."
+    "DESCRIPTION": "Consume all Tokisaki:shadow and Apply Tokisaki:corrosion as much as you consume."
   },
   "Tokisaki:ShadowSpace": {
     "NAME": "Shadow Space",
@@ -141,8 +141,8 @@
   },
   "Tokisaki:Araara": {
     "NAME": "ARA ARA",
-    "DESCRIPTION": "Tokisaki:shadow 1 - Draw a card. NL Tokisaki:shadow 2 - Draw 2 cards. NL Tokisaki:shadow 3 - Draw 2 cards.",
-    "UPGRADE_DESCRIPTION": "Tokisaki:shadow 1 - Draw a card and Gain !B! Block. NL Tokisaki:shadow 2 - Draw 2 cards and Gain !B! Block. NL Tokisaki:shadow 3 - Draw 2 cards."
+    "DESCRIPTION": "Tokisaki:shadow 1 - Draw a card. NL Tokisaki:shadow 2 - Draw 1 cards. NL Tokisaki:shadow 3 - Draw 2 cards.",
+    "UPGRADE_DESCRIPTION": "Tokisaki:shadow 1 - Draw a card and Gain !B! Block. NL Tokisaki:shadow 2 - Draw 1 cards and Gain !B!+2 Block. NL Tokisaki:shadow 3 - Draw 2 cards and Gain !B!+4 Block."
   },
   "Tokisaki:EEDeathwa": {
     "NAME": "EE Death Wa",
@@ -167,7 +167,7 @@
   },
   "Tokisaki:Elohim": {
     "NAME": "Elohim",
-    "DESCRIPTION": "Tokisaki:shadow3 - Gain 6 Plated Armor. NL Tokisaki:shadow 5 - Gain 1 Artifact. NL Tokisaki:shadow 7 - Gain 1 Buffer. NL Tokisaki:shadow 9 - Gain 1 Intangible. NL Exhaust."
+    "DESCRIPTION": "Tokisaki:shadow 3 - Gain 6 Plated Armor. NL Tokisaki:shadow 5 - Gain 1 Artifact. NL Tokisaki:shadow 7 - Gain 1 Buffer. NL Tokisaki:shadow 9 - Gain 1 Intangible. NL Exhaust."
   },
   "Tokisaki:SchoolUniform": {
     "NAME": "School Uniform",
@@ -175,8 +175,8 @@
   },
   "Tokisaki:Nyah": {
     "NAME": "Nyah",
-    "DESCRIPTION": "Lose 5 hp of enemy.",
-    "UPGRADE_DESCRIPTION": "Lose 10 hp of enemy."
+    "DESCRIPTION": "Lose 5 hp of enemy. This attack ignores the defense.",
+    "UPGRADE_DESCRIPTION": "Lose 10 hp of enemy. This attack ignores the defense."
   },
   "Tokisaki:GreatDetective": {
     "NAME": "Great Detective",
@@ -194,7 +194,7 @@
   },
   "Tokisaki:ShadowHand": {
     "NAME": "Shadow Hand",
-    "DESCRIPTION": "Tokisaki:shadow !M! - Reduces all defend and deal !D! damage."
+    "DESCRIPTION": "Tokisaki:shadow !M! - Reduces all defend of enemy and deal !D! damage."
   },
   "Tokisaki:TimeAttack": {
     "NAME": "Time Attack",
@@ -207,7 +207,7 @@
   },
   "Tokisaki:WalkedTime": {
     "NAME": "Walked Time",
-    "DESCRIPTION": "Damage floor * !M! damage. NL Exhaust."
+    "DESCRIPTION": "Deals damage equal to !M! times the current number of floors. NL Exhaust."
   },
   "Tokisaki:Restoration": {
     "NAME": "Restoration",
@@ -215,8 +215,8 @@
   },
   "Tokisaki:ElegantShot": {
     "NAME": "Elegant Shot",
-    "DESCRIPTION": "Deal !D! damage. if Fatal, draw a card.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. if Fatal, draw a card and gain 1 energy."
+    "DESCRIPTION": "Deal !D! damage. if enemy dies, draw a card.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. if enemy dies, draw a card and gain 1 energy."
   },
   "Tokisaki:BendingBullet": {
     "NAME": "Bending Bullet",
@@ -233,7 +233,7 @@
   },
   "Tokisaki:Trample": {
     "NAME": "Trample",
-    "DESCRIPTION": "Deals damage equal to !M!% of maximum health."
+    "DESCRIPTION": "Deals damage equal to !M!% of enemy's maximum health."
   },
   "Tokisaki:BloodAndShadow": {
     "NAME": "Blood And Shadow",
@@ -254,7 +254,7 @@
   },
   "Tokisaki:GoodMeal": {
     "NAME": "Enjoy the meal",
-    "DESCRIPTION": "Deal (!D! + Consuming all Tokisaki:shadodw and Tokisaki:corrosion damage. if Fatal, raise your Max HP by 5. NL Exhaust."
+    "DESCRIPTION": "Deal (!D! + Consuming all Tokisaki:shadodw and enemy's Tokisaki:corrosion) damage. if Fatal, raise your Max HP by 5. NL Exhaust."
   },
   "Tokisaki:SpreadingCorrosion": {
     "NAME": "Spreading Corrosion",
@@ -317,11 +317,11 @@
   "Tokisaki:BulletReplenishment": {
     "NAME": "Bullet Replenishment",
     "DESCRIPTION": "When you use a strike card, draw 1 card and gain 1 armor.",
-    "UPGRADE_DESCRIPTION": "Innate. NL When you use a strike card, draw 1 card and gain 1 armor."
+    "UPGRADE_DESCRIPTION": "Innate. NL When you use a strike card, draw 1 card and gain 1 Block."
   },
   "Tokisaki:BloodAndTime": {
     "NAME": "Blood And Time",
-    "DESCRIPTION": "Lose 3 hp. Gain !B! Block. Gain !M! Tokisaki:shadow."
+    "DESCRIPTION": "Lose !M! hp. Gain !B! Block. Gain 1 Tokisaki:shadow."
   },
   "Tokisaki:Trash": {
     "NAME": "Trash",

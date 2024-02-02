@@ -37,9 +37,9 @@ public class BloodAndTime extends AbstractDynamicCard {
     public static final CardColor COLOR = TheDefault.Enums.COLOR_GRAY;
 
     private static final int COST = 1;
-    private static final int MAGIC_NUMBER = 9;
-    private static final int BLOCK = 6;
-    private static final int UPGRADE_AMOUNT = 3;
+    private static final int MAGIC_NUMBER = 3;
+    private static final int BLOCK = 8;
+    private static final int UPGRADE_AMOUNT = -2;
 
     // /STAT DECLARATION/
 
@@ -53,9 +53,9 @@ public class BloodAndTime extends AbstractDynamicCard {
     // Actions the card should do.
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractDungeon.actionManager.addToBottom(new LoseHPAction(p,p,3));
+        AbstractDungeon.actionManager.addToBottom(new LoseHPAction(p,p,magicNumber));
         AbstractDungeon.actionManager.addToBottom(new GainBlockAction(p, block));
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p,new ShadowPower(p,p,magicNumber)));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p,new ShadowPower(p,p,1)));
     }
 
     //Upgraded stats.
@@ -63,7 +63,6 @@ public class BloodAndTime extends AbstractDynamicCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            upgradeBlock(UPGRADE_AMOUNT);
             upgradeMagicNumber(UPGRADE_AMOUNT);
             initializeDescription();
         }

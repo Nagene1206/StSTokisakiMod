@@ -7,6 +7,8 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
+import com.megacrit.cardcrawl.actions.common.ExhaustAction;
+import com.megacrit.cardcrawl.actions.common.ExhaustSpecificCardAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
@@ -53,20 +55,24 @@ public class NekomimiPower extends AbstractPower implements CloneablePowerInterf
     @Override
     public void onCardDraw(AbstractCard card) {
         card.setCostForTurn(amount);
+
+        int rnd = (int)(Math.random() * 3);
+
+        if(rnd == 0)
+        {
+            flash();
+            AbstractDungeon.actionManager.addToBottom(new ExhaustSpecificCardAction(card,AbstractDungeon.player.hand));
+        }
     }
 
     @Override
     public void onUseCard(AbstractCard card, UseCardAction action) {
-        int rnd = (int)(Math.random() * 2);
+        int rnd = (int)(Math.random() * 3);
 
-        switch (rnd)
+        if(rnd == 0)
         {
-            case 0:
-                flash();
-                action.exhaustCard = true;
-                break;
-            case 1:
-                break;
+            flash();
+            action.exhaustCard = true;
         }
     }
 

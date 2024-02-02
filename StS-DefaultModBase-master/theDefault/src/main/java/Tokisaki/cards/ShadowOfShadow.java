@@ -38,8 +38,8 @@ public class ShadowOfShadow extends AbstractDynamicCard {
     public static final CardColor COLOR = TheDefault.Enums.COLOR_GRAY;
 
     private static final int COST = 3;
-    private static final int MAGIC_NUMBER = 10;
-    private static final int UPGRADE_MAGIC_NUMBER = 10;
+    private static final int MAGIC_NUMBER = 5;
+    private static final int UPGRADE_COST = 2;
 
     // /STAT DECLARATION/
 
@@ -64,7 +64,7 @@ public class ShadowOfShadow extends AbstractDynamicCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            upgradeMagicNumber(UPGRADE_MAGIC_NUMBER);
+            upgradeBaseCost(UPGRADE_COST);
             initializeDescription();
         }
     }

@@ -62,7 +62,7 @@ public class WalkedTime extends CustomCard {
     private static final CardType TYPE = CardType.ATTACK;
     public static final CardColor COLOR = TheDefault.Enums.COLOR_GRAY;
 
-    private static final int COST = 2;
+    private static final int COST = 3;
     private static final int MAGIC_NUMBER = 1;
     private static final int UPGRADE_MAGIC_NUMBER = 1;
 
