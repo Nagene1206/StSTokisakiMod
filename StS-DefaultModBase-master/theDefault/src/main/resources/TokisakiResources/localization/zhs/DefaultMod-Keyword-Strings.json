@@ -2,21 +2,21 @@
   {
     "NAMES": [
       "阴影",
-      "影子"
+      "阴影"
     ],
-    "DESCRIPTION": "你可以使用阴影来使用特定的卡片。"
+    "DESCRIPTION": "一些特定的卡片需要阴影才能打出。"
   },
   {
     "NAMES": [
       "猫"
     ],
-    "DESCRIPTION": "猫? 猫!"
+    "DESCRIPTION": "猫? 猫!猫猫会随机给你奖励或者惩罚。"
   },
   {
     "NAMES": [
       "侵蚀"
     ],
-    "DESCRIPTION": "每次开始旋转都会让你失去数值般的体力。 如果敌人因侵蚀而死亡，最大体力增加2。"
+    "DESCRIPTION": "回合开始时，失去等同时之侵蚀的生命。 如果敌人因时之侵蚀而死亡，最大生命增加2。"
   },
   {
     "PROPER_NAME": "Multiword Keyword",

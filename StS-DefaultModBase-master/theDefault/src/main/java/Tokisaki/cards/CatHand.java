@@ -76,7 +76,7 @@ public class CatHand extends AbstractDynamicCard {
     }
 
     private void doing(AbstractPlayer p, AbstractMonster m) {
-        int rnd = (int)(Math.random() * 14);
+        int rnd = (int)(Math.random() * 13);
 
         switch(rnd)
         {
@@ -113,12 +113,9 @@ public class CatHand extends AbstractDynamicCard {
                 AbstractDungeon.actionManager.addToBottom(new MakeTempCardInHandAction(c, 1));
                 break;
             case 11:
-                p.hand.moveToExhaustPile(p.hand.getRandomCard(AbstractDungeon.cardRandomRng));
-                break;
-            case 12:
                 AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p, new BarricadePower(p)));
                 break;
-            case 13:
+            case 12:
                 AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p, new FeelNoPainPower(p,magicNumber)));
                 break;
         }

@@ -94,6 +94,7 @@ public class Gimel extends AbstractDynamicCard {
                 ArrayList<AbstractCard> c = AbstractDungeon.player.drawPile.group;
                 for(AbstractCard i : c)
                     AbstractDungeon.actionManager.addToBottom(new UpgradeSpecificCardAction(i));
+                AbstractDungeon.player.getPower(ShadowPower.POWER_ID).amount -= 2;
             }
         }
 

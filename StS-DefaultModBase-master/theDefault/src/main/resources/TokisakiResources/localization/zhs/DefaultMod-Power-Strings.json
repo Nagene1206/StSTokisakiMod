@@ -1,39 +1,39 @@
 {
 "Tokisaki:ShadowPower": {
         "NAME": "阴影",
-        "DESCRIPTIONS": ["影子就是时间了。", "", ""]
+        "DESCRIPTIONS": ["影子就是时间的掌控力。", "", ""]
 },
 "Tokisaki:RarePower": {
         "NAME": "Placeholder Power",
         "DESCRIPTIONS": ["At the start of your turn, TOUCH #b", " enemy." , " enemies."]
 },
 "Tokisaki:HethPower": {
-        "NAME": "八之彈",
-        "DESCRIPTIONS": ["使用击打卡时，多使用 ", " 次击打卡", " 次击打卡"]
+        "NAME": "八之弹",
+        "DESCRIPTIONS": ["当你使用打击牌时，将其重复打出", " 次 ", " 次击打卡"]
 },
 "Tokisaki:CatPower": {
         "NAME": "猫猫",
-        "DESCRIPTIONS": ["不可能预测到猫猫。", "", ""]
+        "DESCRIPTIONS": ["你无法预测猫猫的行动。", "", ""]
 },
 "Tokisaki:CatKingdomPower": {
         "NAME": "猫猫王国",
-        "DESCRIPTIONS": ["这里才是猫猫咪们的地上乐园。", "", ""]
+        "DESCRIPTIONS": ["这里才是猫猫咪们的地上天国。", "", ""]
 },
 "Tokisaki:CatHatePower": {
-        "NAME": "猫猫腻",
-        "DESCRIPTIONS": ["别的我不知道，但很明显猫猫不喜欢。", "", ""]
+        "NAME": "猫猫厌恶",
+        "DESCRIPTIONS": ["别的我不知道，但很明显猫猫不喜欢这样。", "", ""]
 },
 "Tokisaki:CorrosionPower": {
         "NAME": "侵蚀",
-        "DESCRIPTIONS": ["旋转开始时，会损失 ", "", " 敌人死了，体力最多增加2。"]
+        "DESCRIPTIONS": ["回合开始时，目标失去 ", "生命", " 当敌人因侵蚀死亡时，最大生命增加2点。"]
 },
 "Tokisaki:AreaExpansionPower": {
-        "NAME": "花时间城堡",
-        "DESCRIPTIONS": ["在转弯开始时，对整个敌人的侵蚀程度为 ", "。", ""]
+        "NAME": "时间研磨之城",
+        "DESCRIPTIONS": ["回合开始时，对所有敌人增加", "层侵蚀。", ""]
 },
 "Tokisaki:OwnerOfTheCastlePower": {
-        "NAME": "城东",
-        "DESCRIPTIONS": ["每次使用技能卡都会得到阴影 ", " 。", " 。"]
+        "NAME": "城堡之主",
+        "DESCRIPTIONS": ["本回合内，每当你使用技能牌时，你获得 ", "层阴影 。", " 层阴影。"]
 },
 "Tokisaki:ClockworkPower": {
         "NAME": "末日发条",
@@ -41,38 +41,38 @@
 },
 "Tokisaki:TimeAttackPower": {
         "NAME": "时间攻击",
-        "DESCRIPTIONS": ["每次开始时，获得力量、敏捷和侵蚀的", "。", ""]
+        "DESCRIPTIONS": ["每回合开始时，获得", "层力量、敏捷和侵蚀。", "层力量、敏捷和侵蚀。"]
 },
 "Tokisaki:ShadowOfShadowPower": {
-        "NAME": "影子模儿",
-        "DESCRIPTIONS": ["在每秒结束时，获得阴影 ", " n。", ""]
+        "NAME": "阴影的阴影",
+        "DESCRIPTIONS": ["每回合结束时，获得 ", " 层阴影。", "层阴影。"]
 },
 "Tokisaki:ShadowRainPower": {
-        "NAME": "阴雨",
-        "DESCRIPTIONS": ["每秒结束时，对整个敌人造成阴影般的伤害。", "", ""]
+        "NAME": "阴影之雨",
+        "DESCRIPTIONS": ["每回合结束时，对所有敌人造成等同于阴影层数的伤害。", "", ""]
 },
 "Tokisaki:NekomimiPower": {
-        "NAME": "善变",
-        "DESCRIPTIONS": ["天哪，猫猫可能会把卡片弄灭的。", "", ""]
+        "NAME": "心血来潮",
+        "DESCRIPTIONS": ["哦天，猫猫也可能会消耗你的牌。", "", ""]
 },
 "Tokisaki:CorrosionShieldPower": {
-        "NAME": "侵蚀盾牌",
-        "DESCRIPTIONS": ["每秒结束时，根据敌人的侵蚀程度获得防御度。", "", ""]
+        "NAME": "侵蚀护盾",
+        "DESCRIPTIONS": ["每回合结束时，获得等同敌人侵蚀层数之和的格挡。", "", ""]
 },
 "Tokisaki:ZaphkielPower": {
         "NAME": "刻刻帝",
-        "DESCRIPTIONS": ["每次用卡都会抽 ", " 张。", " 张。", "这一轮可以使用 ", " 张卡。", "十二张已经用了。"]
+        "DESCRIPTIONS": ["每次使用牌都会抽 ", " 张牌。", " 张牌。", "本回合可以使用 ", " 张卡。", "我已经使用十二张牌了。"]
 },
 "Tokisaki:WholeWorldIsCatPower": {
-        "NAME": "世界是由猫猫组成的",
-        "DESCRIPTIONS": ["每秒开始时，获得 ", " 张随机卡片。", " 张随机卡片。"]
+        "NAME": "你好猫世",
+        "DESCRIPTIONS": ["每回合开始时，获得 ", " 张随机牌。", " 张随机牌。"]
 },
 "Tokisaki:CreateBulletPower": {
-        "NAME": "弹丸生成",
-        "DESCRIPTIONS": ["在每张开始时，将 ", " 张0成本的打击卡放入抽取的卡堆中。", " 张0成本的打击卡放入抽取的卡堆和丢弃的卡堆中。"]
+        "NAME": "生成子弹",
+        "DESCRIPTIONS": ["每回合开始时，将 ", " 张0费的打击牌放入抽牌堆。", " 张0费的打击牌放入抽牌堆与弃牌堆中。"]
 },
 "Tokisaki:BulletReplenishmentPower": {
-        "NAME": "弹丸补充",
-        "DESCRIPTIONS": ["使用击球卡时，抽出 ", " 张卡，获得防御度。", " 张卡，获得防御度。"]
+        "NAME": "子弹充能",
+        "DESCRIPTIONS": ["每当你使用打击牌时，抽 ", " 张牌，并获得格挡。", " 张牌，并获得格挡。"]
 }
 }

@@ -1,346 +1,346 @@
 {
-  "Tokisaki:Strike_T": {
-    "NAME": "击打",
-    "DESCRIPTION": "伤害 !D!"
+   "Tokisaki:Strike_T": {
+    "NAME": "打击",
+    "DESCRIPTION": "造成 !D! 点伤害"
   },
   "Tokisaki:Defend_T": {
-    "NAME": "防守",
-    "DESCRIPTION": "获得防御!B!"
+    "NAME": "防御",
+    "DESCRIPTION": "获得 !B! 点格挡"
   },
   "Tokisaki:ShadowShot": {
-    "NAME": "影子子弹",
-    "DESCRIPTION": "阴影 1 - 伤害 !D!. NL 阴影 2 - 抽一张卡片!M! NL 阴影 3 - 恢复体力!M!"
+    "NAME": "阴影射击",
+    "DESCRIPTION": "阴影 1 -  造成 !D! 点伤害. NL 阴影 2 - 抽 !M! 张牌 NL 阴影 3 - 恢复 !M! 点生命"
   },
   "Tokisaki:TimeAbsorption": {
-    "NAME": "时间吸收",
-    "DESCRIPTION": "得到 阴影 2。"
+    "NAME": "夺取时间",
+    "DESCRIPTION": "获得2层 阴影 。"
   },
   "Tokisaki:Aleph": {
-    "NAME": "一之彈",
-    "DESCRIPTION": "获得力量1。 得到民妾1。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "获得力量1。 得到民妾1。"
+    "NAME": "一之起源弹",
+    "DESCRIPTION": "获得1点力量与1点敏捷。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得1点力量与1点敏捷。"
   },
   "Tokisaki:Beth": {
-    "NAME": "二之彈",
-    "DESCRIPTION": "给整个敌人带来伤害!D!,赋予弱化!M!,脆弱!M! 然后!M!抽一张。 NL 消耗 。"
+    "NAME": "二之妨害弹",
+    "DESCRIPTION": "给对所有敌人造成 !D! 点伤害,然后给予 !M! 层虚弱与 !M! 层易伤 然后抽 !M! 张牌。 NL 消耗 。"
   },
   "Tokisaki:Gimel": {
-    "NAME": "三之彈",
-    "DESCRIPTION": "阴影 1 - 强化一张牌，直到战斗结束。 NL 阴影 3 - 相反，加强手上的所有筹码。",
-    "UPGRADE_DESCRIPTION": "阴影 1 - 把手上的牌都强化到战斗结束。 NL 阴影 3 - 要抽的牌堆的牌也全部强化。"
+    "NAME": "三之强化弹",
+    "DESCRIPTION": "阴影 1 - 在本场战斗中强化一张牌。 NL 阴影 3 - 本场战斗中强化所有手牌。",
+    "UPGRADE_DESCRIPTION": "阴影 1 - 本场战斗中强化所有手牌。 NL 阴影 3 - 本场战斗中强化所有手牌与抽牌堆中的牌。"
   },
   "Tokisaki:Daleth": {
-    "NAME": "四之彈",
-    "DESCRIPTION": "保留 。 NL 让现在的体力达到最大体力的一半。 NL 消耗 。"
+    "NAME": "四之回溯弹",
+    "DESCRIPTION": "保留 。 NL 将生命重置为最大生命的一半。 NL 消耗 。"
   },
   "Tokisaki:He": {
-    "NAME": "五之彈",
+    "NAME": "五之未来弹",
     "DESCRIPTION": "预见 5。",
-    "UPGRADE_DESCRIPTION": "预见 5. 抽3张卡。"
+    "UPGRADE_DESCRIPTION": "预见 5. 抽3张牌。"
   },
   "Tokisaki:Waw": {
-    "NAME": "六之彈",
-    "DESCRIPTION": "拿一张消耗 。的卡片。 那张卡的费用为0。 NL 消耗 。"
+    "NAME": "六之寻回弹",
+    "DESCRIPTION": "从你的消耗堆获取一张已经消耗的牌，那张牌的费用为0。 NL 消耗 。"
   },
   "Tokisaki:Zain": {
-    "NAME": "七之彈",
-    "DESCRIPTION": "让敌人处于昏厥状态。 NL 消耗 。"
+    "NAME": "七之时停弹",
+    "DESCRIPTION": "击昏敌人。 NL 消耗 。"
   },
   "Tokisaki:Heth": {
-    "NAME": "八之彈",
-    "DESCRIPTION": "使用击打卡时，再使用一次击打卡。"
+    "NAME": "八之复咏弹",
+    "DESCRIPTION": "当你使用打击牌时，将其重复打出一次。"
   },
   "Tokisaki:Tet": {
-    "NAME": "九之彈",
-    "DESCRIPTION": "得到一张時崎狂三的随机卡片。",
-    "UPGRADE_DESCRIPTION": "得到一张時崎狂三的随机卡片。 然后强化。"
+    "NAME": "九之创造弹",
+    "DESCRIPTION": "随机获得一张時崎狂三的卡牌。",
+    "UPGRADE_DESCRIPTION": "随机获得一张强化过的時崎狂三的卡牌。"
   },
   "Tokisaki:Yod": {
-    "NAME": "十之彈",
-    "DESCRIPTION": "造成损失，失去的体力会相应地给予。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "造成损失，失去的体力会相应地给予。"
+    "NAME": "十之底力弹",
+    "DESCRIPTION": "造成等同于已经损失体力的伤害。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "造成等同于已经损失体力的伤害。"
   },
   "Tokisaki:YodAleph": {
-    "NAME": "十一之彈",
-    "DESCRIPTION": "得到10个 影子 。 结束旋转 。 NL 消耗 。"
+    "NAME": "十一阴影弹",
+    "DESCRIPTION": "获得10层 阴影 。 结束你的回合 。 NL 消耗 。"
   },
   "Tokisaki:YodBeth": {
-    "NAME": "十二之彈",
-    "DESCRIPTION": "在手上的卡片中最多选择9张销耗。 得到5个 影子 。 体力跟现在那一层一样差。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "在手上的卡片中最多选择9张销耗。 得到5个 影子 。 NL 消耗 。"
-  },
+    "NAME": "十二结末弹",
+    "DESCRIPTION": "最多消耗 9 张手牌。得到 5 层 阴影 。 失去等同楼层的生命。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "最多消耗 9 张手牌。得到 5 层 阴影 。 NL 消耗 。"
+  },  
   "Tokisaki:Cat": {
     "NAME": "猫",
-    "DESCRIPTION": "或者像 猫 一样失去体力,或者对整个敌人造成伤害,或者抽牌。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "像 猫 一样失去体力、对整个敌人造成伤害、抽卡或获得缓冲器。 NL 消耗 。"
+    "DESCRIPTION": "失去等同 猫 层数的生命,对所有敌人造成伤害，或抽一张牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "失去等同 猫 层数的生命,对所有敌人造成伤害，抽一张牌，或获得一层 缓冲  NL 消耗 。"
   },
   "Tokisaki:CatKingdom": {
     "NAME": "猫王国",
-    "DESCRIPTION": "每场比赛开始时,都会获得与 猫 一样(最多5)的力量、敏捷或刺刺。"
+    "DESCRIPTION": "回合开始时,获得与 猫 层数一样(最多5)的 力量 、 敏捷 或 荆棘 。"
   },
   "Tokisaki:ActinidiaBranch": {
-    "NAME": "软枣猕猴桃树枝",
-    "DESCRIPTION": "丢掉一半的 猫 。 获得相当于 猫 的两倍的金色。",
-    "UPGRADE_DESCRIPTION": "获得相当于 猫 的两倍的金色。"
+    "NAME": "木天蓼",
+    "DESCRIPTION": "失去一半层数的 猫 。 获得相当于 猫 层数的 金币 。",
+    "UPGRADE_DESCRIPTION": " 获得相当于 猫 层数的 金币 。"
   },
   "Tokisaki:Chur": {
-    "NAME": "库尔",
-    "DESCRIPTION": "得到 猫 咪!M!。 NL 消耗 。"
+    "NAME": "库尔猫",
+    "DESCRIPTION": "获得 !M! 层 猫 。 NL 消耗 。"
   },
   "Tokisaki:CatTower": {
     "NAME": "猫爬架",
-    "DESCRIPTION": "得到 猫 咪!M!。",
-    "UPGRADE_DESCRIPTION": "得到 猫 咪!M!。 我抽张卡。"
+    "DESCRIPTION": "获得 !M! 层 猫 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 层 猫 。并抽一张牌。"
   },
   "Tokisaki:PawPad": {
-    "NAME": "脚底软糖",
-    "DESCRIPTION": "[猫腻]赋予它. 得到 猫 咪 3 NL 消耗 。"
+    "NAME": "猫爪垫",
+    "DESCRIPTION": "获得 [猫猫厌恶] . 得到 3 层 猫  NL 消耗 。"
   },
   "Tokisaki:CatPunch": {
-    "NAME": "喵喵拳头",
-    "DESCRIPTION": "躲开!D!给 猫 那么多。 NL 消耗 。"
+    "NAME": "猫猫拳",
+    "DESCRIPTION": "造成 !D! 点伤害 猫 层数次。 NL 消耗 。"
   },
   "Tokisaki:ShadowCat": {
-    "NAME": "小猫影子",
-    "DESCRIPTION": "把 影子 都消耗 。掉，消耗 。多少就得到多少 猫。",
-    "UPGRADE_DESCRIPTION": "多得 影子 多得 猫 。"
+    "NAME": "影子猫",
+    "DESCRIPTION": "消耗全部的 阴影 ，获得等于消耗数量的 猫 。",
+    "UPGRADE_DESCRIPTION": "获得等于 阴影 数量的 猫 。"
   },
   "Tokisaki:Rampage": {
     "NAME": "乱射",
-    "DESCRIPTION": "给敌人两次伤害!D!。 阴影 !M! - 代替2号给3号。"
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害两次。阴影 !M! 不能是2或3的倍数。"
   },
   "Tokisaki:SpatialQuake": {
-    "NAME": "空间阵",
-    "DESCRIPTION": "给全体敌人带来伤害!D!。 NL 消耗 。"
+    "NAME": "时空震",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 消耗 。"
   },
   "Tokisaki:AreaExpansion": {
-    "NAME": "扩展区域",
-    "DESCRIPTION": "在每次开始时，给予整个敌人1个 侵蚀。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 在每次开始时，给予整个敌人1个 侵蚀。"
+    "NAME": "领域扩张",
+    "DESCRIPTION": "每回合开始时，给予所有敌人1层 侵蚀 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 每回合开始时，给予所有敌人1层 侵蚀 。"
   },
   "Tokisaki:CorrosionFlood": {
-    "NAME": "侵蚀泛滥",
-    "DESCRIPTION": "消耗 。所有的 影子 ，给予相应的 侵蚀 。"
+    "NAME": "侵蚀洪流",
+    "DESCRIPTION": "消耗全部的 阴影 ，给予相同层数的 侵蚀 。"
   },
   "Tokisaki:ShadowSpace": {
     "NAME": "阴影空间",
-    "DESCRIPTION": "阴影 3 - 得到互不侵犯1。 NL 消耗 。"
+    "DESCRIPTION": "阴影 3 - 得到1层 无实体 。 NL 消耗 。"
   },
   "Tokisaki:OwnerOfTheCastle": {
-    "NAME": "城东",
-    "DESCRIPTION": "这回每次使用技能卡都会得到1个 影子 。",
-    "UPGRADE_DESCRIPTION": "保留 。NL 这回每次使用技能卡都会得到1个 影子 。"
+    "NAME": "城堡之主",
+    "DESCRIPTION": "本回合内，每当你使用技能牌时，获得1层 阴影 。",
+    "UPGRADE_DESCRIPTION": "保留 。NL 本回合内，每当你使用技能牌时，获得1层 阴影 。"
   },
   "Tokisaki:ShadowFood": {
-    "NAME": "阴影的养分",
-    "DESCRIPTION": "阴影 3 - 获得能量!M!"
+    "NAME": "阴影养分",
+    "DESCRIPTION": "阴影 3 - 获得 !M! 点 [E]"
   },
   "Tokisaki:Nightmare": {
-    "NAME": "奈特梅尔",
-    "DESCRIPTION": "伤害 !D!。得到 阴影 !M!。赋予 侵蚀 !M!"
+    "NAME": "夜魇",
+    "DESCRIPTION": "造成 !D! 点伤害。获得 !M! 层 阴影 。给予层 !M! 侵蚀"
   },
   "Tokisaki:Araara": {
-    "NAME": "哎哟哎哟",
-    "DESCRIPTION": "阴影 1 - 抽一张卡。 NL 阴影 2 - 抽一张卡。 NL 阴影 3 - 抽两张卡。",
-    "UPGRADE_DESCRIPTION": "阴影 1 - 抽一张卡片，获得防御!B! NL 阴影 2 - 抽一张卡，获得防御!B!+2 NL 阴影 3 - 抽两张卡，获得防御!B!+4。"
+    "NAME": "阿拉阿拉",
+    "DESCRIPTION": " 阴影 1 - 抽一张牌。 NL 阴影 2 - 抽一张牌。 NL 阴影 3 - 抽两张牌。",
+    "UPGRADE_DESCRIPTION": "阴影 1 - 抽一张牌并获得 !B! 点格挡 NL 阴影 2 - 抽一张牌并获得 !B!+2 点格挡 NL 阴影 3 - 抽两张牌并获得 !B!+4 点格挡。"
   },
   "Tokisaki:EEDeathwa": {
-    "NAME": "很好",
-    "DESCRIPTION": "赋予 侵蚀 !M! 获得防御!B! NL 消耗 。"
+    "NAME": "死兆将至",
+    "DESCRIPTION": "给予层 !M! 侵蚀获得 !B! 点格挡 NL 消耗 。"
   },
   "Tokisaki:Psycho": {
-    "NAME": "是最棒的",
-    "DESCRIPTION": "伤害 !D! 获得防御!B! 使用后会反转。"
+    "NAME": "惊魂",
+    "DESCRIPTION": "造成 !D! 点伤害，并获得 !B! 格挡，使用后会交换格挡与伤害。"
   },
   "Tokisaki:Kihihihi": {
-    "NAME": "嘻嘻嘻",
-    "DESCRIPTION": "阴影 1 - 获得防御!B! NL 阴影 2 - 获得防御!B! NL 阴影 3 - 获得防御!B!"
+    "NAME": "嘻嘻",
+    "DESCRIPTION": "阴影  1 - 获得 !B! 点格挡 NL 阴影  2 - 获得 !B! 点格挡 NL 阴影 3 - 获得 !B! 点格挡"
   },
   "Tokisaki:Crazy": {
-    "NAME": "狂",
-    "DESCRIPTION": "随机更改手上的所有卡的费用。 这次战斗期间会维持。 NL 消耗 。"
+    "NAME": "癫狂",
+    "DESCRIPTION": "本场战斗中，随机更改手上的所有牌的费用。 NL 消耗 。"
   },
   "Tokisaki:Three": {
     "NAME": "三",
-    "DESCRIPTION": "虛无 NL 伤害!D!就给3次。",
-    "UPGRADE_DESCRIPTION": "虛无 NL 伤害!D!就给3次。 得到 阴影 3。"
+    "DESCRIPTION": "虛无 NL 造成 !D! 点伤害 3 次。",
+    "UPGRADE_DESCRIPTION": "虛无 NL 造成 D!点 伤害 3 次。 得到 3 层 阴影 。"
   },
   "Tokisaki:Elohim": {
-    "NAME": "神威靈裝·三番",
-    "DESCRIPTION": "阴影 3 - 得到钣金盔甲6。 NL 阴影 5 - 得到人工制品1。 NL 阴影 7 - 获取缓冲区 1 。 NL 阴影 9 - 得到互不侵犯1。 NL 消耗 。"
+    "NAME": "神威灵裝·三番",
+    "DESCRIPTION": "阴影 3 - 得到 6 层金属化。 NL 阴影 5 - 得到 1 层人工制品。 NL阴影 7 - 得到 1 层缓冲 。 NL 阴影 9 - 得到1层无实体。 NL 消耗 。"
   },
   "Tokisaki:SchoolUniform": {
     "NAME": "校服",
-    "DESCRIPTION": "伤害!D! 获得防御!B! 获得黄金!M!"
+    "DESCRIPTION": "造成 !D! 点伤害，获得 !B! 点格挡 获得 !M! 金币"
   },
   "Tokisaki:Nyah": {
-    "NAME": "吐舌头",
-    "DESCRIPTION": "无视防御，将敌人的体力削减5。",
-    "UPGRADE_DESCRIPTION": "无视防御，将敌人的体力削减10。"
+    "NAME": "呐呐",
+    "DESCRIPTION": "无视格挡，造成5点伤害。",
+    "UPGRADE_DESCRIPTION": "无视格挡，造成10点伤害。"
   },
   "Tokisaki:GreatDetective": {
     "NAME": "名侦探",
-    "DESCRIPTION": "如果选择的敌人有攻击的意图，就抽3张牌。",
-    "UPGRADE_DESCRIPTION": "如果选择的敌人有攻击的意图，就抽3张牌。 额外获得能量1。"
+    "DESCRIPTION": "如果目标敌人意图是攻击，抽3张牌。",
+    "UPGRADE_DESCRIPTION": "如果目标敌人意图是攻击，抽3张牌。 额外获得 [E] 。"
   },
   "Tokisaki:MagicDetective": {
     "NAME": "魔术侦探",
-    "DESCRIPTION": "阴影 1 - 简写2份。 NL 阴影 3 - 给予3个 侵蚀 。 NL 阴影 5 - 赋予钝化。",
-    "UPGRADE_DESCRIPTION": "阴影 1 - 简写2份。 NL 阴影 2 - 给予3个 侵蚀 。 NL 阴影 3 - 赋予钝化。"
+    "DESCRIPTION": "阴影 1 - 给予2层 虚弱 。 NL 阴影 3 - 给予3层 侵蚀 。 NL 阴影 5 - 给予 迟缓。",
+    "UPGRADE_DESCRIPTION": "阴影 1 - 给予2层 虚弱 。NL 阴影 2 - 给予3层 侵蚀 。 NL 阴影 3 - 给予 迟缓 。"
   },
   "Tokisaki:Clockwork": {
-    "NAME": "钟表发条",
-    "DESCRIPTION": "阴影 12 - !M!转圈后转圈结束时，对整个敌人造成伤害1200。"
+    "NAME": "末日发条",
+    "DESCRIPTION": "阴影 - !M! 回合后时，对所有敌人造成1200点伤害。"
   },
   "Tokisaki:ShadowHand": {
-    "NAME": "影子手",
-    "DESCRIPTION": "阴影 !M! - 减少敌人的所有防御，造成损失!D!"
+    "NAME": "阴影之手",
+    "DESCRIPTION": "阴影 !M! - 移除目标所有格挡，然后造成!D!点伤害"
   },
   "Tokisaki:TimeAttack": {
     "NAME": "时间攻击",
-    "DESCRIPTION": "每秒开始时,给自己力量、敏捷、侵蚀 3个。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 每秒开始时,给自己力量、敏捷、侵蚀 3个。"
+    "DESCRIPTION": "每回合开始时,给自己3层 力量 、敏捷 、侵蚀 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 每回合开始时,给自己3层  力量 、 敏捷 、 侵蚀 。"
   },
   "Tokisaki:ShadowOfShadow": {
-    "NAME": "影子模儿",
-    "DESCRIPTION": "每秒结束时，获得阴影!M!"
+    "NAME": "暗影重重",
+    "DESCRIPTION": "每回合结束时，获得 !M! 层 阴影 "
   },
   "Tokisaki:WalkedTime": {
-    "NAME": "走过来的时间",
-    "DESCRIPTION": "损失相应层的!M!倍。 NL 消耗 。"
+    "NAME": "过往时间",
+    "DESCRIPTION": "造成等同 !M! 倍当前楼层数的伤害。 NL 消耗 。"
   },
   "Tokisaki:Restoration": {
-    "NAME": "还原",
-    "DESCRIPTION": "伤害!D! 消耗 。1张卡。 按那张卡的费用获得能量。"
+    "NAME": "时空复原",
+    "DESCRIPTION": "造成 !D! 点伤害，消耗一张牌。获得等同其费用的 [E] 。"
   },
   "Tokisaki:ElegantShot": {
-    "NAME": "优雅的射击",
-    "DESCRIPTION": "伤害!D! 如果敌人在这次攻击中死亡，就抽一张牌。",
-    "UPGRADE_DESCRIPTION": "伤害!D! 如果敌人在这次攻击中死亡，则抽一张牌，获得1的能量。"
+    "NAME": "优雅射击",
+    "DESCRIPTION": "造成 !D! 点伤害，如果敌人在这次攻击中死亡，抽一张牌。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害，如果敌人在这次攻击中死亡，抽一张牌，获得 [E] 。"
   },
   "Tokisaki:BendingBullet": {
-    "NAME": "弯曲的子弹",
-    "DESCRIPTION": "给全体敌人带来伤害 !D!"
+    "NAME": "曲线射击",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害"
   },
   "Tokisaki:Crooked": {
-    "NAME": "晃荡",
-    "DESCRIPTION": "让开!D! 给多少X次。 将X张受伤放入丢弃的卡片堆中。",
-    "UPGRADE_DESCRIPTION": "让开!D! 给多少X+2次。 将X张受伤放入丢弃的卡片堆中。"
+    "NAME": "扭曲",
+    "DESCRIPTION": "造成 !D! 点伤害 X 次。 将 X 张伤口放入弃牌堆堆中。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害 X+2 次。 将 X 张伤口放入弃牌堆堆中。"
   },
   "Tokisaki:SealedEye": {
-    "NAME": "封印的马眼",
-    "DESCRIPTION": "给全体敌人带来伤害!D! 清除所有缓冲区、调试器。"
+    "NAME": "封印之眼",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害，移除所有的 buff与debuff 。"
   },
   "Tokisaki:Trample": {
-    "NAME": "踩踏",
-    "DESCRIPTION": "损失相当于敌人最大体力的!M!%(下降)。"
+    "NAME": "蹂躏",
+    "DESCRIPTION": "造成相当于敌人 !M! % 最大生命值的伤害。"
   },
   "Tokisaki:BloodAndShadow": {
-    "NAME": "血与影",
-    "DESCRIPTION": "体力!M!会失去的。 伤害!D! NL 阴影 1 - 恢复体力2。"
+    "NAME": "血之影",
+    "DESCRIPTION": "失去 !M! 点生命。造成 !D! 点伤害 NL  阴影 1 - 恢复2点生命。"
   },
   "Tokisaki:DoubleTap": {
-    "NAME": "双螺纹攻",
-    "DESCRIPTION": "伤害!D!一样多给2次。 NL 阴影 1 - 赋予脆弱!M! NL 阴影 2 - 抽一张!M!的卡片。"
+    "NAME": "双发快射",
+    "DESCRIPTION": "造成 !D! 点伤害2次。 NL  阴影 1 - 给予 !M! 层 易伤 NL  阴影 2 - 抽 !M! 张牌。"
   },
   "Tokisaki:ALittleBigCat": {
-    "NAME": "稍大一点的猫",
-    "DESCRIPTION": "像 猫 一样造成伤害并赋予弱化。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "像 猫 一样造成伤害并赋予弱化。"
+    "NAME": "大号橘猫",
+    "DESCRIPTION": "造成等同于 猫 层数的伤害并给予同样层数的 虚弱 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "造成等同于 猫 层数的伤害并给予同样层数的 虚弱 。"
   },
   "Tokisaki:BrokenCat": {
-    "NAME": "坏猫",
-    "DESCRIPTION": "这张卡的费用每次抽的时候都会变更。 NL 不知道敌人会发生什么事情。"
+    "NAME": "损坏的猫",
+    "DESCRIPTION": "每当抽到这张牌时，变化其费用。 NL 你永远不会知道敌人将会发生什么事情。"
   },
   "Tokisaki:GoodMeal": {
     "NAME": "谢谢款待",
-    "DESCRIPTION": "损害（!D!+阴影 和 侵蚀 全部被消耗 。）。 如果敌人在此次攻击中死亡，最大可增加5个体力。 NL 消耗 。"
+    "DESCRIPTION": "造成 !D!+ 全部 阴影 和 侵蚀 的伤害，并消耗全部的 阴影 与 侵蚀。 如果敌人在此次攻击中死亡，增加 5 点最大生命。 NL 消耗 。"
   },
   "Tokisaki:SpreadingCorrosion": {
-    "NAME": "蔓延的侵蚀",
-    "DESCRIPTION": "伤害!D! 如果敌人有 侵蚀 !M!用船做。 NL 消耗 。"
+    "NAME": "侵蚀蔓延",
+    "DESCRIPTION": "造成 !D! 点伤害，如果敌人有侵蚀将其翻 !M! 倍。 NL 消耗 。"
   },
   "Tokisaki:Mozambique": {
     "NAME": "莫桑比克钻机",
-    "DESCRIPTION": "伤害!D!一样多给2次。 又会给你带来伤害!D!+8。"
+    "DESCRIPTION": "造成 !D! 点伤害2次。 再造成 !D!+8 点伤害。"
   },
   "Tokisaki:TimeIsGold": {
     "NAME": "时间就是金钱。",
-    "DESCRIPTION": "大奖侵蚀的!M!倍数获得黄金。"
+    "DESCRIPTION": "获得侵蚀 !M! 倍的金金币。"
   },
   "Tokisaki:TheMore": {
     "NAME": "多多益善",
-    "DESCRIPTION": "如果这次战斗获胜，将随机获得文物作为奖励。 NL 消耗 。"
+    "DESCRIPTION": "如果这次战斗获胜，将随机获得一件遗物。 NL 消耗 。"
   },
   "Tokisaki:CatHand": {
     "NAME": "猫爪儿",
-    "DESCRIPTION": "借猫咪的手。 像 猫 一样反复。"
+    "DESCRIPTION": "猫咪的手。 像 猫 一样反复。"
   },
-  "Tokisaki:DayOfCat": {
-    "NAME": "猫节",
-    "DESCRIPTION": "抽这张卡的时候，如果能量和费用一样多的话，会自动使用。 给大家一个不可侵犯的。 NL 消耗 。"
+    "Tokisaki:DayOfCat": {
+    "NAME": "猫之日",
+    "DESCRIPTION": "抽到此牌时，如果 [E] 足够，将其自动打出，并获得 1 层 无实体 。 NL 消耗 。"
   },
   "Tokisaki:CorrosionCat": {
-    "NAME": "被侵蚀的猫",
-    "DESCRIPTION": "给整个敌人以 猫 一样的 侵蚀 。 NL 消耗 。"
+    "NAME": "侵蚀猫",
+    "DESCRIPTION": "给予所有敌 猫 层 侵蚀 。 NL 消耗 。"
   },
   "Tokisaki:CatIsBestMedicine": {
-    "NAME": "猫是最好的治疗剂",
-    "DESCRIPTION": "将抽取的卡堆、手、丢弃的卡堆诅咒、状态异常的卡全部消灭，消除一切有害作用。 NL 消耗 。"
+    "NAME": "猫咪是最治愈的",
+    "DESCRIPTION": "消耗抽牌堆，手牌与弃牌堆中所有的诅咒牌与状态牌并移除所有debuff。 NL 消耗 。"
   },
   "Tokisaki:ShadowRain": {
-    "NAME": "阴雨",
-    "DESCRIPTION": "每秒结束时，对整个敌人造成 阴影 般的伤害。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 每秒结束时，对整个敌人造成 阴影 般的伤害。"
+    "NAME": "阴影之雨",
+    "DESCRIPTION": "每回合结束时，对所有敌人造成等同于 阴影 层数的伤害。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 对所有敌人造成等同于 阴影 层数的伤害。"
   },
   "Tokisaki:Nekomimi": {
-    "NAME": "猫耳朵",
-    "DESCRIPTION": "所有卡的费用都是!M! 但是猫猫咪可能会变卦。"
+    "NAME": "猫耳",
+    "DESCRIPTION": "所有牌的费用设为 !M! 但是猫咪可能会随机消耗你的牌。"
   },
   "Tokisaki:CorrosionShield": {
-    "NAME": "侵蚀盾牌",
-    "DESCRIPTION": "每秒结束时，根据敌人的侵蚀程度获得防御度。"
+    "NAME": "侵蚀护盾",
+    "DESCRIPTION": "回合结束时，获得等同敌人侵蚀层数之和的格挡。"
   },
   "Tokisaki:Zaphkiel": {
     "NAME": "刻刻帝",
-    "DESCRIPTION": "每次用卡的时候，我都会抽一张卡。 但是一顿最多可以使用12张卡。"
+    "DESCRIPTION": "每次使用一张牌都会抽一张牌。 但是一回合至多只能使用12张牌。"
   },
   "Tokisaki:WholeWorldIsCat": {
-    "NAME": "满世界都是猫",
-    "DESCRIPTION": "每秒开始时，获得一张!M!张随机卡片。"
+    "NAME": "你好猫世",
+    "DESCRIPTION": "回合开始时，获得一张 !M! 张随机卡片。"
   },
   "Tokisaki:CreateBullet": {
-    "NAME": "弹丸生成",
-    "DESCRIPTION": "开始每秒时，将费用为0的打击卡混入抽取的卡堆中。",
-    "UPGRADE_DESCRIPTION": "在每次开始时，将费用为0的打击卡混合到要抽的卡堆和丢弃的卡堆中。"
+    "NAME": "生成子弹",
+    "DESCRIPTION": "回合开始时，将费用为0的打击牌放入抽牌堆。",
+    "UPGRADE_DESCRIPTION": "回合开始时，将费用为0的打击牌放入抽牌堆与弃牌堆。"
   },
   "Tokisaki:BulletReplenishment": {
-    "NAME": "弹丸补充",
-    "DESCRIPTION": "每次使用击球卡时，抽一张卡，获得1个防御度。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 每次使用击球卡时，抽一张卡，获得1个防御度。"
+    "NAME": "子弹充能",
+    "DESCRIPTION": "每当你使用打击牌时，抽一张牌，并获得1点格挡。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 每当你使用打击牌时，抽一张牌，并获得1点格挡。"
   },
   "Tokisaki:BloodAndTime": {
-    "NAME": "血与时间",
-    "DESCRIPTION": "会失去!M!的体力。 获得防御!B! 获得 阴影 1"
+    "NAME": "喋血之时",
+    "DESCRIPTION": "失去 !M! 点生命。 获得 !B! 点格挡，获得1层 阴影 "
   },
   "Tokisaki:Trash": {
     "NAME": "垃圾 ",
-    "DESCRIPTION": "猫 叼来了。 会给NL带来损失!D! NL 消耗 。"
+    "DESCRIPTION": "猫猫带来的垃圾。 NL造成 !D! 点伤害。NL 消耗 。"
   },
   "Tokisaki:Fish": {
-    "NAME": "海鲜",
-    "DESCRIPTION": "猫 叼来了。 NL 恢复体力5。 抽一张卡片!M! NL 消耗 。"
+    "NAME": "鱼",
+    "DESCRIPTION": "猫猫带来的海鲜。 NL 恢复5点生命。 抽 !M! 张牌NL 消耗 。"
   },
   "Tokisaki:Flower": {
     "NAME": "花",
-    "DESCRIPTION": "猫 叼来了。 NL 获得能量!M! NL 消耗 。"
+    "DESCRIPTION": "猫猫带来的。 NL 获得 [E] NL 消耗 。"
   },
   "Tokisaki:AngryCat": {
-    "NAME": "一窝火猫猫",
-    "DESCRIPTION": "猫 叼来了。 NL 抽这张卡的时候会消掉一张随机卡片。 NL 消耗 。"
+    "NAME": "愤怒猫猫",
+    "DESCRIPTION": "猫猫带来的。 NL 抽到这张牌的时候会消掉一张随机卡片。 NL 消耗 。"
   },
   "Tokisaki:HappyCat": {
-    "NAME": "幸福的小猫",
-    "DESCRIPTION": "猫 叼来了。 NL 获得能量!M!抽一张卡片!M! NL 消耗 。"
+    "NAME": "幸福小猫",
+    "DESCRIPTION": "猫猫带来的。 NL 获得3 [E] ，抽 !M! 张牌 NL 消耗 。"
   }
 }

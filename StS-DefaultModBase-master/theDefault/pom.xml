@@ -6,7 +6,7 @@
     <groupId>Tokisaki</groupId>
     <artifactId>Tokisaki</artifactId> <!--Keep a note of this one: this is the ID used in the "auto add cards" method-->
     <name>Tokisaki Mod</name>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <description>Tokisaki Kurumi Mod. You can play Tokisaki Kurumi who is character in anime 'Date a Live'.</description>
 
     <properties>

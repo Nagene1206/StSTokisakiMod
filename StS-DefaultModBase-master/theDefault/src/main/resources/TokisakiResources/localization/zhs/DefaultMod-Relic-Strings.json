@@ -1,9 +1,9 @@
 {
   "Tokisaki:CastleThatEatTime": {
-    "NAME": "蝕時之城",
+    "NAME": "蚀时之城",
     "FLAVOR": "是补充影子（时间）的最佳手段。",
     "DESCRIPTIONS": [
-      "启动内转时， #yTokisaki:阴影 将变为 1."
+      "回合开始时， 增加 1层 阴影 ."
     ]
   },
   "Tokisaki:PlaceholderRelic2": {
@@ -32,24 +32,24 @@
     ]
   },
   "Tokisaki:ProperMeal": {
-    "NAME": "正经八百的饭菜",
+    "NAME": "正餐",
     "FLAVOR": "谢绝没有教养的用餐礼仪。",
     "DESCRIPTIONS": [
-      "敌人因 #yTokisaki:侵蚀 而死，额外的最大体力增加了#b5。"
+      "敌人因 侵蚀 而死，额外获得 #b5 最大生命 。"
     ]
   },
   "Tokisaki:CatToy": {
-    "NAME": "猫猫玩具",
+    "NAME": "毛线球",
     "FLAVOR": "诱惑猫猫咪的必需品！",
     "DESCRIPTIONS": [
-      "开始转圈时，得到 #b1 只 #yTokisaki:猫猫 。"
+      "回合开始时，得到  1 只  猫 。"
     ]
   },
   "Tokisaki:CastleThatBingeTime": {
-    "NAME": "暴饮暴食的城堡",
+    "NAME": "暴食城堡",
     "FLAVOR": "吃影子的话，人也能吃一个吧？",
     "DESCRIPTIONS": [
-      "旋转结束时，恢复 #yTokisaki:影子 般大小的体力（最多3）。"
+      "回合结束，恢复  影子 层数的体力（最多3）。"
     ]
   }
 }

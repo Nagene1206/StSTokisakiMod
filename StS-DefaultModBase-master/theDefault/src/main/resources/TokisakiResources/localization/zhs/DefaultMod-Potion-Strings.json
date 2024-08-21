@@ -4,15 +4,15 @@
         "DESCRIPTIONS": ["Gain ", " At the end of your turn, lose ", " Strength."]
 },
 "Tokisaki:ShadowPotion": {
-        "NAME": "影子姿势",
+        "NAME": "影子药水",
         "DESCRIPTIONS": ["得到 #y阴影 ", ""]
 },
 "Tokisaki:CatPotion": {
-        "NAME": "猫姿势",
+        "NAME": "猫猫罐",
         "DESCRIPTIONS": ["得到 ", " 只 #y猫。"]
 },
 "Tokisaki:CorrosionPotion": {
-        "NAME": "侵蚀姿势",
+        "NAME": "侵蚀药水",
         "DESCRIPTIONS": ["给予敌人 ", " #y侵蚀。"]
 }
 }
